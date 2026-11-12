@@ -53,6 +53,7 @@ const data = {
     recall: pct(truePositives, truth.rows.length), resolutionFloor: `1 in ${truth.rows.length}`,
     note: "A fixture written by the referee's author checks the rule arithmetic, not discovery; zero false positives, zero false negatives and zero wrong verdicts are each a rate below 1 in the planted count.",
   },
+  plantedByScenario: truth.scenarios,
   rows: real.map((r) => ({ key: r.key, field: `${r.object}.${r.field}`, owner: r.owner, verdict: r.verdict, cause: r.cause, staleSide: r.staleSide })),
 };
 writeJson("exp02_attribution.json", data);

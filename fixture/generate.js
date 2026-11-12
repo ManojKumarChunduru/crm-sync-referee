@@ -440,10 +440,19 @@ export function generate() {
     created.push(record);
   }
 
-  return build({ accounts, contacts, sfWrites, extWrites, expected, gaps, orphans, created });
+  const scenarios = {};
+  for (const row of expected) {
+    const letter = row.scenario.slice(0, 1);
+    scenarios[letter] = (scenarios[letter] || 0) + 1;
+  }
+  scenarios.N = orphans.length;
+  scenarios.O = 40;
+  scenarios.P = created.length;
+
+  return build({ accounts, contacts, sfWrites, extWrites, expected, gaps, orphans, created, scenarios });
 }
 
-function build({ accounts, contacts, sfWrites, extWrites, expected, gaps, orphans, created }) {
+function build({ accounts, contacts, sfWrites, extWrites, expected, gaps, orphans, created, scenarios }) {
   const iso = (ms) => new Date(ms).toISOString();
   const sfRecords = { Account: [], Contact: [] };
   const extRecords = { accounts: [], contacts: [] };
@@ -579,7 +588,7 @@ function build({ accounts, contacts, sfWrites, extWrites, expected, gaps, orphan
     },
     expected: {
       as_of: AS_OF_TEXT, window_hours: WINDOW_HOURS, skew_seconds: SKEW_SECONDS, seed: SEED,
-      rows: expected, orphans,
+      scenarios, rows: expected, orphans,
     },
   };
 }

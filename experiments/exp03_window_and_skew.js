@@ -20,7 +20,10 @@ const byWindow = windows.map((hours) => {
 const bySkew = skews.map((seconds) => {
   const { result } = fixtureRun({ skewSeconds: seconds });
   const c = result.counts;
-  return { seconds, attributed: c.attributed, unattributable: c.unattributable, withinSkew: c.byVerdict.within_clock_skew, laterWrites: c.byCause.later_write };
+  return {
+    seconds, attributed: c.attributed, unattributable: c.unattributable,
+    withinSkew: c.byVerdict.within_clock_skew, laterWrites: c.byCause.later_write,
+  };
 });
 const at = (h) => byWindow.find((w) => w.hours === h);
 const data = {
@@ -39,5 +42,8 @@ writeJson("exp03_window_and_skew.json", data);
 console.log(`exp03 window: unattributable ${data.unattributableAt24h} at 24 h, ${data.unattributableAt72h} at 72 h, ${data.unattributableAt720h} at 720 h; an archive recovers ${data.archiveRecovers}, legacy retention loses ${data.legacyLoses} more`);
 console.log(`exp03 skew: ${data.attributedAtZeroSkew} attributed at 0 s; ${data.withinSkewAt60s} within clock skew at 60 s (${data.extraUnattributableAt60s} more than at 5 s)`);
 printTable(["Window (h)", "Real", "Attributed", "Unattributable", "Share %", "Window closed", "Within skew", "Contract alone"],
-  byWindow.map((w) => [w.hours, w.realDiffs, w.attributed, w.unattributable, w.unattributablePct, w.windowClosed, w.withinSkew, w.contractOnly]));
+  byWindow.map((w) => [
+    w.hours, w.realDiffs, w.attributed, w.unattributable, w.unattributablePct,
+    w.windowClosed, w.withinSkew, w.contractOnly,
+  ]));
 printTable(["Skew (s)", "Attributed", "Unattributable", "Within skew", "Later writes"], bySkew.map((s) => [s.seconds, s.attributed, s.unattributable, s.withinSkew, s.laterWrites]));

@@ -11,13 +11,16 @@ const inputs = loadAll();
 const naive = naiveReferee(inputs);
 const truth = new Map(expected().rows.map((r) => [rowKey(r), r]));
 
-const classes = { normalisation: 0, echo: 0, rogue_write: 0, within_skew: 0, window_closed: 0, sync_transform: 0, contract_silent: 0, gap_event: 0, other: 0 };
+const classes = {
+  normalisation: 0, echo: 0, rogue_write: 0, within_skew: 0, window_closed: 0,
+  sync_transform: 0, contract_silent: 0, gap_event: 0, other: 0,
+};
 let correct = 0;
 const wrong = [];
 for (const row of naive) {
   const t = truth.get(rowKey(row));
   if (t === undefined) throw new Error(`naive reported an unplanted row ${rowKey(row)}`);
-  let why = null;
+  let why;
   if (t.verdict === "not_a_diff") why = "normalisation";
   else if (t.staleSide !== null) {
     if (t.staleSide === row.staleSide) { correct += 1; continue; }
@@ -41,7 +44,8 @@ const data = {
   defaulted: naive.filter((r) => r.defaulted).length,
   decidedByAnEcho: naive.filter((r) => r.decidedBy !== null && r.decidedBy.origin === "echo").length,
   wrongSideNamed: classes.echo + classes.rogue_write + classes.other,
-  decidedTheUndecidable: classes.within_skew + classes.window_closed + classes.sync_transform + classes.contract_silent + classes.gap_event,
+  decidedTheUndecidable: classes.within_skew + classes.window_closed + classes.sync_transform
+    + classes.contract_silent + classes.gap_event,
   rows: wrong,
 };
 writeJson("exp04_timestamp_baseline.json", data);

@@ -64,6 +64,23 @@
     "pull_refreshes": 3,
     "pull_retries": 3,
     "pull_page_size": 20,
+    "scenario_a": 18,
+    "scenario_b": 20,
+    "scenario_c": 16,
+    "scenario_d": 5,
+    "scenario_e": 4,
+    "scenario_f": 6,
+    "scenario_g": 4,
+    "scenario_h": 10,
+    "scenario_i": 4,
+    "scenario_k": 8,
+    "scenario_q": 3,
+    "scenario_r": 2,
+    "scenario_l": 2,
+    "scenario_m": 1,
+    "scenario_n": 5,
+    "scenario_o": 40,
+    "scenario_p": 8,
     "row_account_name_raw": 9,
     "row_account_name_away": 2,
     "row_account_name_real": 7,
@@ -327,6 +344,57 @@
     ],
     "pull_page_size": [
       "{} records per page"
+    ],
+    "scenario_a": [
+      "| {} | not a diff | |"
+    ],
+    "scenario_b": [
+      "| {} | external stale | sync lag |"
+    ],
+    "scenario_c": [
+      "| {} | Salesforce stale | sync lag |"
+    ],
+    "scenario_d": [
+      "| {} | external stale | rogue write |"
+    ],
+    "scenario_e": [
+      "| {} | Salesforce stale | rogue write |"
+    ],
+    "scenario_f": [
+      "| {} | Salesforce stale | echo of a stale value |"
+    ],
+    "scenario_g": [
+      "| {} | sync transform | |"
+    ],
+    "scenario_h": [
+      "| {} | window closed | |"
+    ],
+    "scenario_i": [
+      "| {} | within clock skew | |"
+    ],
+    "scenario_k": [
+      "| {} | the earlier side stale | later write |"
+    ],
+    "scenario_q": [
+      "| {} | the non-owner stale | window closed |"
+    ],
+    "scenario_r": [
+      "| {} | Salesforce stale | sync transform |"
+    ],
+    "scenario_l": [
+      "| {} | contract silent | |"
+    ],
+    "scenario_m": [
+      "| {} | gap event | |"
+    ],
+    "scenario_n": [
+      "| {} | reported apart | |"
+    ],
+    "scenario_o": [
+      "before it | {} | no difference | |"
+    ],
+    "scenario_p": [
+      "per field | {} | no difference | |"
     ],
     "row_account_name_raw": [
       "| `Account.Name` | salesforce | {} | {m:row_account_name_away} | {m:row_account_name_real} |"

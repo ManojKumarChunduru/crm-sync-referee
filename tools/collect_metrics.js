@@ -112,6 +112,20 @@ add("pull_refreshes", exp5.refreshes, ["{} refreshes after 401"]);
 add("pull_retries", exp5.retries, ["{} retries after 429"]);
 add("pull_page_size", exp5.pageSize, ["{} records per page"]);
 
+// Per-scenario rows in the fixture README's table, pinned by the verdict and cause cells that follow the count.
+const SCENARIO_ROWS = {
+  A: "| {} | not a diff | |", B: "| {} | external stale | sync lag |", C: "| {} | Salesforce stale | sync lag |",
+  D: "| {} | external stale | rogue write |", E: "| {} | Salesforce stale | rogue write |",
+  F: "| {} | Salesforce stale | echo of a stale value |", G: "| {} | sync transform | |", H: "| {} | window closed | |",
+  I: "| {} | within clock skew | |", K: "| {} | the earlier side stale | later write |", L: "| {} | contract silent | |",
+  M: "| {} | gap event | |", Q: "| {} | the non-owner stale | window closed |", R: "| {} | Salesforce stale | sync transform |",
+  N: "| {} | reported apart | |", O: "before it | {} | no difference | |", P: "per field | {} | no difference | |",
+};
+for (const [letter, count] of Object.entries(exp2.plantedByScenario)) {
+  if (!(letter in SCENARIO_ROWS)) fail(`no anchor for planted scenario ${letter}`);
+  add(`scenario_${letter.toLowerCase()}`, count, [SCENARIO_ROWS[letter]]);
+}
+
 // Per-field rows in the README's census table, pinned by the literal field name plus neighbours.
 for (const [field, row] of Object.entries(exp1.byField)) {
   const slug = field.toLowerCase().replace(/[^a-z0-9]+/g, "_");

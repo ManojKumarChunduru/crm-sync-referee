@@ -93,12 +93,21 @@ test("the LICENSE names the candidate", () => {
   assert.match(readFileSync(join(ROOT, "LICENSE"), "utf8"), /Copyright \(c\) 2026 Manoj Kumar Chunduru/);
 });
 
-test("no document quotes a duration as a figure", () => {
+test("no document quotes a measured duration as a figure; a declared tolerance or a planted gap is not a measurement", () => {
+  // This repository's subject includes time: the clock skew tolerance is a policy in the contract and the
+  // fixture plants writes a known number of seconds apart. Those are inputs, not timings of this machine, and
+  // every one sits on a line that names the tolerance, the skew, the clock or the gap. Anything else that
+  // reads as a duration (a millisecond, a runtime in seconds) is still refused.
   const offenders = [];
   const docs = textFiles().filter((p) => p.endsWith(".md") && !p.startsWith("node_modules/"));
+  const declared = /\b(tolerance|skew|clock|apart|gap)\b/i;
   for (const path of docs) {
     const text = readFileSync(join(ROOT, path), "utf8").replace(/```[\s\S]*?```/g, "");
-    if (/\b\d+(\.\d+)?\s?(ms|milliseconds|seconds|secs|minutes)\b/i.test(text)) offenders.push(path);
+    for (const line of text.split("\n")) {
+      const m = /\b\d+(\.\d+)?\s?(ms|milliseconds|seconds|secs|minutes)\b/i.exec(line);
+      if (m === null) continue;
+      if (/\b(ms|milliseconds|minutes|secs)\b/i.test(m[0]) || !declared.test(line)) offenders.push(`${path}: ${m[0]}`);
+    }
   }
   assert.deepEqual(offenders, []);
 });

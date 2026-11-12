@@ -48,6 +48,25 @@
     "resolutionFloor": "1 in 103",
     "note": "A fixture written by the referee's author checks the rule arithmetic, not discovery; zero false positives, zero false negatives and zero wrong verdicts are each a rate below 1 in the planted count."
   },
+  "plantedByScenario": {
+    "A": 18,
+    "B": 20,
+    "C": 16,
+    "D": 5,
+    "E": 4,
+    "F": 6,
+    "G": 4,
+    "H": 10,
+    "I": 4,
+    "K": 8,
+    "Q": 3,
+    "R": 2,
+    "L": 2,
+    "M": 1,
+    "N": 5,
+    "O": 40,
+    "P": 8
+  },
   "rows": [
     {
       "key": "001Kd0000000003AAA",

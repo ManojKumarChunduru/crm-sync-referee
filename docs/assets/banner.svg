@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="crm-sync-referee: for every field that differs between Salesforce and an external system, the stale side named with the write that proves it, or the reason no referee can">
+  <style>
+    text { font-family: Inter, "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif; }
+    .title { font-size: 34px; font-weight: 700; fill: #ffffff; letter-spacing: -0.5px; }
+    .claim { font-size: 17px; fill: #c7d0e0; }
+    .side { font-size: 15px; font-weight: 600; fill: #9fc1ff; }
+    .cell { font-size: 14px; fill: #e6ebf4; font-family: ui-monospace, Menlo, Consolas, monospace; }
+    .dim { fill: #8793a8; }
+    .figure { font-size: 15px; fill: #ffffff; font-weight: 600; }
+    .figure.ext { fill: #b3bdf7; }
+    .figure.sf { fill: #b7e4bc; }
+    .figure.warn { fill: #ffe08a; }
+    .caption { font-size: 12px; fill: #8793a8; }
+    .q { font-size: 44px; font-weight: 700; fill: #ffe08a; opacity: 0; animation: fade 0.6s ease-out 0.5s forwards, hide 0.4s ease-in 3.2s forwards; }
+    .arrow { stroke-dasharray: 220; stroke-dashoffset: 220; animation: draw 1.2s ease-out 0.8s forwards; }
+    .verdict { opacity: 0; transform-origin: 600px 150px; animation: land 0.6s ease-out 3.4s forwards; }
+    .window { animation: shrink 2.4s ease-in-out 1.2s forwards; }
+    .fig { opacity: 0; animation: fade 0.8s ease-out forwards; }
+    .f1 { animation-delay: 3.8s; } .f2 { animation-delay: 4.1s; } .f3 { animation-delay: 4.4s; } .f4 { animation-delay: 4.7s; }
+    .glow { animation: drift 10s ease-in-out infinite alternate; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes hide { to { opacity: 0; } }
+    @keyframes land { from { opacity: 0; transform: scale(1.6) rotate(-8deg); } to { opacity: 1; transform: scale(1) rotate(-6deg); } }
+    @keyframes shrink { from { width: 320px; } to { width: 96px; } }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(160px); } }
+    @media (prefers-reduced-motion: reduce) {
+      .q { animation: none; opacity: 0; }
+      .arrow, .verdict, .fig, .window, .glow { animation: none; opacity: 1; stroke-dashoffset: 0; transform: rotate(-6deg); }
+      .arrow, .fig, .window, .glow { transform: none; }
+      .window { width: 96px; }
+    }
+  </style>
+  <rect width="1200" height="320" fill="#1b2a41"/>
+  <ellipse class="glow" cx="820" cy="60" rx="420" ry="120" fill="#2b3f66" opacity="0.5"/>
+  <rect width="1200" height="320" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a41" stop-opacity="0"/>
+      <stop offset="1" stop-color="#121c2e" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <text class="title" x="48" y="62">crm-sync-referee</text>
+  <text class="claim" x="48" y="92">A diff says two values differ. It cannot say which side is stale. The contract and the change logs can, until the event window closes.</text>
+
+  <!-- Salesforce column -->
+  <text class="side" x="300" y="135">Salesforce</text>
+  <rect x="300" y="146" width="220" height="30" rx="4" fill="#243655"/>
+  <text class="cell" x="310" y="166">Contact.Title</text>
+  <rect x="300" y="182" width="220" height="30" rx="4" fill="#243655"/>
+  <text class="cell" x="310" y="202">Procurement Lead</text>
+  <text class="caption" x="300" y="232">written 02:00 by the bridge <tspan class="dim">(echo)</tspan></text>
+
+  <!-- ERP column -->
+  <text class="side" x="680" y="135">ERP</text>
+  <rect x="680" y="146" width="220" height="30" rx="4" fill="#243655"/>
+  <text class="cell" x="690" y="166">title</text>
+  <rect x="680" y="182" width="220" height="30" rx="4" fill="#243655"/>
+  <text class="cell" x="690" y="202">Customer Success Manager</text>
+  <text class="caption" x="680" y="232">written 14:00 by u.chen <tspan class="dim">(originating)</tspan></text>
+
+  <!-- the symmetric diff -->
+  <line class="arrow" x1="530" y1="197" x2="670" y2="197" stroke="#8793a8" stroke-width="2" stroke-dasharray="6 6"/>
+  <text class="q" x="586" y="182">?</text>
+  <!-- the verdict stamp -->
+  <g class="verdict">
+    <rect x="522" y="128" width="156" height="44" rx="6" fill="none" stroke="#b7e4bc" stroke-width="3"/>
+    <text x="600" y="157" text-anchor="middle" font-size="18" font-weight="700" fill="#b7e4bc">Salesforce stale</text>
+  </g>
+
+  <!-- the window -->
+  <text class="caption" x="300" y="268">change events kept</text>
+  <rect x="430" y="258" width="320" height="12" rx="3" fill="#2b3f66"/>
+  <rect class="window" x="430" y="258" width="320" height="12" rx="3" fill="#ffe08a" opacity="0.85"/>
+  <text class="caption" x="760" y="268">72 h, then the evidence is gone</text>
+
+  <!-- figures -->
+  <text class="figure fig f1" x="960" y="140">85 real diffs</text>
+  <text class="figure ext fig f2" x="960" y="170">30 blame the ERP</text>
+  <text class="figure sf fig f3" x="960" y="200">34 blame Salesforce</text>
+  <text class="figure warn fig f4" x="960" y="230">21 no referee can attribute</text>
+  <text class="caption" x="960" y="268">on the committed fixture, re-measured by CI</text>
+</svg>
