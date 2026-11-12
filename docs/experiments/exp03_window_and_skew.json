@@ -1,0 +1,69 @@
+{
+  "byWindow": [
+    {
+      "hours": 24,
+      "realDiffs": 85,
+      "attributed": 47,
+      "unattributable": 38,
+      "unattributablePct": 44.7,
+      "windowClosed": 35,
+      "withinSkew": 1,
+      "gapEvent": 0,
+      "contractOnly": 26
+    },
+    {
+      "hours": 72,
+      "realDiffs": 85,
+      "attributed": 64,
+      "unattributable": 21,
+      "unattributablePct": 24.7,
+      "windowClosed": 10,
+      "withinSkew": 4,
+      "gapEvent": 1,
+      "contractOnly": 3
+    },
+    {
+      "hours": 720,
+      "realDiffs": 85,
+      "attributed": 76,
+      "unattributable": 9,
+      "unattributablePct": 10.6,
+      "windowClosed": 2,
+      "withinSkew": 4,
+      "gapEvent": 1,
+      "contractOnly": 0
+    }
+  ],
+  "bySkew": [
+    {
+      "seconds": 0,
+      "attributed": 68,
+      "unattributable": 17,
+      "withinSkew": 0,
+      "laterWrites": 12
+    },
+    {
+      "seconds": 5,
+      "attributed": 64,
+      "unattributable": 21,
+      "withinSkew": 4,
+      "laterWrites": 8
+    },
+    {
+      "seconds": 60,
+      "attributed": 61,
+      "unattributable": 24,
+      "withinSkew": 7,
+      "laterWrites": 5
+    }
+  ],
+  "unattributableAt24h": 38,
+  "unattributableAt72h": 21,
+  "unattributableAt720h": 9,
+  "archiveRecovers": 12,
+  "legacyLoses": 17,
+  "attributedAtZeroSkew": 68,
+  "withinSkewAt60s": 7,
+  "extraUnattributableAt60s": 3,
+  "note": "Windows are monotone by construction (a longer window reads a superset of the events). The skew sweep compares tolerances none of which contains another in verdict space: a looser tolerance turns decided pairs into undecided ones and nothing else."
+}

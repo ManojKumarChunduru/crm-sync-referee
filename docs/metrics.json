@@ -1,0 +1,522 @@
+{
+  "metrics": {
+    "tests_total": 185,
+    "coverage_line_pct": "98.5",
+    "records_salesforce": 397,
+    "records_external": 398,
+    "joined_records": 395,
+    "compared_fields": 2765,
+    "contract_fields": 14,
+    "undeclared_fields": 2,
+    "raw_differences": 103,
+    "normalised_away": 18,
+    "normalised_away_pct": "17.5",
+    "real_diffs": 85,
+    "orphans_total": 5,
+    "change_events": 159,
+    "audit_writes": 169,
+    "stale_external": 30,
+    "stale_salesforce": 34,
+    "stale_external_pct": "35.3",
+    "stale_salesforce_pct": "40",
+    "attributed_total": 64,
+    "attributed_pct": "75.3",
+    "unattributable_total": 21,
+    "unattributable_pct": "24.7",
+    "window_closed_verdicts": 10,
+    "within_skew_verdicts": 4,
+    "sync_transform_verdicts": 4,
+    "contract_silent_verdicts": 2,
+    "gap_event_verdicts": 1,
+    "named_by_contract_alone": 3,
+    "cause_sync_lag": 36,
+    "cause_rogue": 9,
+    "cause_echo": 6,
+    "cause_later_write": 8,
+    "cause_sync_transform": 2,
+    "planted_verdicts": 103,
+    "recovered_verdicts": 103,
+    "wrong_verdicts": 0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "unattributable_at_24h": 38,
+    "unattributable_at_720h": 9,
+    "archive_recovers": 12,
+    "legacy_loses": 17,
+    "attributed_at_zero_skew": 68,
+    "within_skew_at_60s": 7,
+    "extra_unattributable_at_60s": 3,
+    "naive_rows": 103,
+    "naive_correct": 47,
+    "naive_wrong": 56,
+    "naive_wrong_real": 38,
+    "naive_wrong_real_pct": "44.7",
+    "naive_wrong_echo": 8,
+    "naive_wrong_rogue": 9,
+    "naive_wrong_normalisation": 18,
+    "naive_decided_undecidable": 21,
+    "naive_wrong_side": 17,
+    "naive_defaulted": 9,
+    "naive_by_echo": 12,
+    "pull_requests": 37,
+    "pull_pages": 30,
+    "pull_token_requests": 4,
+    "pull_refreshes": 3,
+    "pull_retries": 3,
+    "pull_page_size": 20,
+    "row_account_name_raw": 9,
+    "row_account_name_away": 2,
+    "row_account_name_real": 7,
+    "row_account_phone_raw": 13,
+    "row_account_phone_away": 4,
+    "row_account_phone_real": 9,
+    "row_account_industry_raw": 5,
+    "row_account_industry_away": 0,
+    "row_account_industry_real": 5,
+    "row_account_billingcountry_raw": 6,
+    "row_account_billingcountry_away": 2,
+    "row_account_billingcountry_real": 4,
+    "row_account_accountnumber_raw": 6,
+    "row_account_accountnumber_away": 0,
+    "row_account_accountnumber_real": 6,
+    "row_account_website_raw": 9,
+    "row_account_website_away": 2,
+    "row_account_website_real": 7,
+    "row_account_rating_raw": 1,
+    "row_account_rating_away": 0,
+    "row_account_rating_real": 1,
+    "row_contact_email_raw": 15,
+    "row_contact_email_away": 4,
+    "row_contact_email_real": 11,
+    "row_contact_phone_raw": 9,
+    "row_contact_phone_away": 2,
+    "row_contact_phone_real": 7,
+    "row_contact_title_raw": 9,
+    "row_contact_title_away": 0,
+    "row_contact_title_real": 9,
+    "row_contact_mailingcountry_raw": 7,
+    "row_contact_mailingcountry_away": 2,
+    "row_contact_mailingcountry_real": 5,
+    "row_contact_department_raw": 8,
+    "row_contact_department_away": 0,
+    "row_contact_department_real": 8,
+    "row_contact_erp_status_c_raw": 5,
+    "row_contact_erp_status_c_away": 0,
+    "row_contact_erp_status_c_real": 5,
+    "row_contact_leadsource_raw": 1,
+    "row_contact_leadsource_away": 0,
+    "row_contact_leadsource_real": 1,
+    "window_24_attributed": 47,
+    "window_24_unattributable": 38,
+    "window_24_pct": "44.7",
+    "window_72_attributed": 64,
+    "window_72_unattributable": 21,
+    "window_72_pct": "24.7",
+    "window_720_attributed": 76,
+    "window_720_unattributable": 9,
+    "window_720_pct": "10.6",
+    "skew_0_within": 0,
+    "skew_0_later": 12,
+    "skew_5_within": 4,
+    "skew_5_later": 8,
+    "skew_60_within": 7,
+    "skew_60_later": 5
+  },
+  "anchors": {
+    "tests_total": [
+      "{} tests"
+    ],
+    "coverage_line_pct": [
+      "{}% line coverage"
+    ],
+    "records_salesforce": [
+      "{} Salesforce records"
+    ],
+    "records_external": [
+      "{} ERP records"
+    ],
+    "joined_records": [
+      "{} joined records"
+    ],
+    "compared_fields": [
+      "{} compared fields",
+      "{} field comparisons"
+    ],
+    "contract_fields": [
+      "{} contract fields"
+    ],
+    "undeclared_fields": [
+      "{} fields with no declared owner",
+      "{} with no declared owner"
+    ],
+    "raw_differences": [
+      "{} raw differences"
+    ],
+    "normalised_away": [
+      "{} normalise away"
+    ],
+    "normalised_away_pct": [
+      "{}% of the raw count"
+    ],
+    "real_diffs": [
+      "{} real diffs",
+      "{} real differences"
+    ],
+    "orphans_total": [
+      "{} orphan records"
+    ],
+    "change_events": [
+      "{} field writes from change events"
+    ],
+    "audit_writes": [
+      "{} field writes from the audit log"
+    ],
+    "stale_external": [
+      "{} blame the ERP",
+      "{} diffs blame the ERP"
+    ],
+    "stale_salesforce": [
+      "{} blame Salesforce",
+      "{} diffs blame Salesforce"
+    ],
+    "stale_external_pct": [
+      "{}% ERP-side share"
+    ],
+    "stale_salesforce_pct": [
+      "{}% Salesforce-side share"
+    ],
+    "attributed_total": [
+      "{} diffs attributed",
+      "{} diffs with a named side"
+    ],
+    "attributed_pct": [
+      "{}% attributed"
+    ],
+    "unattributable_total": [
+      "{} no referee can attribute",
+      "{} diffs no referee can attribute"
+    ],
+    "unattributable_pct": [
+      "{}% of real diffs unattributable",
+      "{}% unattributable at 72 hours"
+    ],
+    "window_closed_verdicts": [
+      "{} diffs outside the window",
+      "{} window closed"
+    ],
+    "within_skew_verdicts": [
+      "{} within clock skew"
+    ],
+    "sync_transform_verdicts": [
+      "{} transform verdicts"
+    ],
+    "contract_silent_verdicts": [
+      "{} contract silent"
+    ],
+    "gap_event_verdicts": [
+      "{} gap event"
+    ],
+    "named_by_contract_alone": [
+      "{} named by the contract alone"
+    ],
+    "cause_sync_lag": [
+      "{} sync lag"
+    ],
+    "cause_rogue": [
+      "{} rogue writes"
+    ],
+    "cause_echo": [
+      "{} echoes of a stale value"
+    ],
+    "cause_later_write": [
+      "{} later writes"
+    ],
+    "cause_sync_transform": [
+      "{} transformed on the way in"
+    ],
+    "planted_verdicts": [
+      "{} planted verdicts",
+      "floor 1 in {}"
+    ],
+    "recovered_verdicts": [
+      "{} of {m:planted_verdicts} recovered"
+    ],
+    "wrong_verdicts": [
+      "{} wrong verdicts"
+    ],
+    "false_positives": [
+      "{} false positives"
+    ],
+    "false_negatives": [
+      "{} false negatives"
+    ],
+    "unattributable_at_24h": [
+      "{} unattributable at 24 hours"
+    ],
+    "unattributable_at_720h": [
+      "{} unattributable at 720 hours"
+    ],
+    "archive_recovers": [
+      "an archive recovers {}",
+      "recovers {} of them"
+    ],
+    "legacy_loses": [
+      "legacy retention loses {} more"
+    ],
+    "attributed_at_zero_skew": [
+      "{} attributed at zero tolerance"
+    ],
+    "within_skew_at_60s": [
+      "{} undecided pairs at 60 seconds"
+    ],
+    "extra_unattributable_at_60s": [
+      "{} more pairs undecided at 60 seconds"
+    ],
+    "naive_rows": [
+      "{} rows the timestamp referee reports"
+    ],
+    "naive_correct": [
+      "{} the timestamp referee gets right"
+    ],
+    "naive_wrong": [
+      "{} the timestamp referee gets wrong"
+    ],
+    "naive_wrong_real": [
+      "{} mis-attributed by timestamps",
+      "mis-attributes {} of them"
+    ],
+    "naive_wrong_real_pct": [
+      "{}% of real diffs mis-attributed",
+      "{}% mis-attributed"
+    ],
+    "naive_wrong_echo": [
+      "{} wrong on an echo"
+    ],
+    "naive_wrong_rogue": [
+      "{} wrong on a rogue write"
+    ],
+    "naive_wrong_normalisation": [
+      "{} reported that were not differences"
+    ],
+    "naive_decided_undecidable": [
+      "{} decided that cannot be decided"
+    ],
+    "naive_wrong_side": [
+      "{} name the wrong side"
+    ],
+    "naive_defaulted": [
+      "{} defaulted to Salesforce"
+    ],
+    "naive_by_echo": [
+      "{} decided by the integration's own write"
+    ],
+    "pull_requests": [
+      "{} requests in the pull"
+    ],
+    "pull_pages": [
+      "{} pages pulled"
+    ],
+    "pull_token_requests": [
+      "{} token requests"
+    ],
+    "pull_refreshes": [
+      "{} refreshes after 401"
+    ],
+    "pull_retries": [
+      "{} retries after 429"
+    ],
+    "pull_page_size": [
+      "{} records per page"
+    ],
+    "row_account_name_raw": [
+      "| `Account.Name` | salesforce | {} | {m:row_account_name_away} | {m:row_account_name_real} |"
+    ],
+    "row_account_name_away": [
+      "| `Account.Name` | salesforce | {m:row_account_name_raw} | {} | {m:row_account_name_real} |"
+    ],
+    "row_account_name_real": [
+      "| `Account.Name` | salesforce | {m:row_account_name_raw} | {m:row_account_name_away} | {} |"
+    ],
+    "row_account_phone_raw": [
+      "| `Account.Phone` | shared | {} | {m:row_account_phone_away} | {m:row_account_phone_real} |"
+    ],
+    "row_account_phone_away": [
+      "| `Account.Phone` | shared | {m:row_account_phone_raw} | {} | {m:row_account_phone_real} |"
+    ],
+    "row_account_phone_real": [
+      "| `Account.Phone` | shared | {m:row_account_phone_raw} | {m:row_account_phone_away} | {} |"
+    ],
+    "row_account_industry_raw": [
+      "| `Account.Industry` | salesforce | {} | {m:row_account_industry_away} | {m:row_account_industry_real} |"
+    ],
+    "row_account_industry_away": [
+      "| `Account.Industry` | salesforce | {m:row_account_industry_raw} | {} | {m:row_account_industry_real} |"
+    ],
+    "row_account_industry_real": [
+      "| `Account.Industry` | salesforce | {m:row_account_industry_raw} | {m:row_account_industry_away} | {} |"
+    ],
+    "row_account_billingcountry_raw": [
+      "| `Account.BillingCountry` | shared | {} | {m:row_account_billingcountry_away} | {m:row_account_billingcountry_real} |"
+    ],
+    "row_account_billingcountry_away": [
+      "| `Account.BillingCountry` | shared | {m:row_account_billingcountry_raw} | {} | {m:row_account_billingcountry_real} |"
+    ],
+    "row_account_billingcountry_real": [
+      "| `Account.BillingCountry` | shared | {m:row_account_billingcountry_raw} | {m:row_account_billingcountry_away} | {} |"
+    ],
+    "row_account_accountnumber_raw": [
+      "| `Account.AccountNumber` | external | {} | {m:row_account_accountnumber_away} | {m:row_account_accountnumber_real} |"
+    ],
+    "row_account_accountnumber_away": [
+      "| `Account.AccountNumber` | external | {m:row_account_accountnumber_raw} | {} | {m:row_account_accountnumber_real} |"
+    ],
+    "row_account_accountnumber_real": [
+      "| `Account.AccountNumber` | external | {m:row_account_accountnumber_raw} | {m:row_account_accountnumber_away} | {} |"
+    ],
+    "row_account_website_raw": [
+      "| `Account.Website` | shared | {} | {m:row_account_website_away} | {m:row_account_website_real} |"
+    ],
+    "row_account_website_away": [
+      "| `Account.Website` | shared | {m:row_account_website_raw} | {} | {m:row_account_website_real} |"
+    ],
+    "row_account_website_real": [
+      "| `Account.Website` | shared | {m:row_account_website_raw} | {m:row_account_website_away} | {} |"
+    ],
+    "row_account_rating_raw": [
+      "| `Account.Rating` | undeclared | {} | {m:row_account_rating_away} | {m:row_account_rating_real} |"
+    ],
+    "row_account_rating_away": [
+      "| `Account.Rating` | undeclared | {m:row_account_rating_raw} | {} | {m:row_account_rating_real} |"
+    ],
+    "row_account_rating_real": [
+      "| `Account.Rating` | undeclared | {m:row_account_rating_raw} | {m:row_account_rating_away} | {} |"
+    ],
+    "row_contact_email_raw": [
+      "| `Contact.Email` | shared | {} | {m:row_contact_email_away} | {m:row_contact_email_real} |"
+    ],
+    "row_contact_email_away": [
+      "| `Contact.Email` | shared | {m:row_contact_email_raw} | {} | {m:row_contact_email_real} |"
+    ],
+    "row_contact_email_real": [
+      "| `Contact.Email` | shared | {m:row_contact_email_raw} | {m:row_contact_email_away} | {} |"
+    ],
+    "row_contact_phone_raw": [
+      "| `Contact.Phone` | shared | {} | {m:row_contact_phone_away} | {m:row_contact_phone_real} |"
+    ],
+    "row_contact_phone_away": [
+      "| `Contact.Phone` | shared | {m:row_contact_phone_raw} | {} | {m:row_contact_phone_real} |"
+    ],
+    "row_contact_phone_real": [
+      "| `Contact.Phone` | shared | {m:row_contact_phone_raw} | {m:row_contact_phone_away} | {} |"
+    ],
+    "row_contact_title_raw": [
+      "| `Contact.Title` | external | {} | {m:row_contact_title_away} | {m:row_contact_title_real} |"
+    ],
+    "row_contact_title_away": [
+      "| `Contact.Title` | external | {m:row_contact_title_raw} | {} | {m:row_contact_title_real} |"
+    ],
+    "row_contact_title_real": [
+      "| `Contact.Title` | external | {m:row_contact_title_raw} | {m:row_contact_title_away} | {} |"
+    ],
+    "row_contact_mailingcountry_raw": [
+      "| `Contact.MailingCountry` | shared | {} | {m:row_contact_mailingcountry_away} | {m:row_contact_mailingcountry_real} |"
+    ],
+    "row_contact_mailingcountry_away": [
+      "| `Contact.MailingCountry` | shared | {m:row_contact_mailingcountry_raw} | {} | {m:row_contact_mailingcountry_real} |"
+    ],
+    "row_contact_mailingcountry_real": [
+      "| `Contact.MailingCountry` | shared | {m:row_contact_mailingcountry_raw} | {m:row_contact_mailingcountry_away} | {} |"
+    ],
+    "row_contact_department_raw": [
+      "| `Contact.Department` | shared | {} | {m:row_contact_department_away} | {m:row_contact_department_real} |"
+    ],
+    "row_contact_department_away": [
+      "| `Contact.Department` | shared | {m:row_contact_department_raw} | {} | {m:row_contact_department_real} |"
+    ],
+    "row_contact_department_real": [
+      "| `Contact.Department` | shared | {m:row_contact_department_raw} | {m:row_contact_department_away} | {} |"
+    ],
+    "row_contact_erp_status_c_raw": [
+      "| `Contact.ERP_Status__c` | external | {} | {m:row_contact_erp_status_c_away} | {m:row_contact_erp_status_c_real} |"
+    ],
+    "row_contact_erp_status_c_away": [
+      "| `Contact.ERP_Status__c` | external | {m:row_contact_erp_status_c_raw} | {} | {m:row_contact_erp_status_c_real} |"
+    ],
+    "row_contact_erp_status_c_real": [
+      "| `Contact.ERP_Status__c` | external | {m:row_contact_erp_status_c_raw} | {m:row_contact_erp_status_c_away} | {} |"
+    ],
+    "row_contact_leadsource_raw": [
+      "| `Contact.LeadSource` | undeclared | {} | {m:row_contact_leadsource_away} | {m:row_contact_leadsource_real} |"
+    ],
+    "row_contact_leadsource_away": [
+      "| `Contact.LeadSource` | undeclared | {m:row_contact_leadsource_raw} | {} | {m:row_contact_leadsource_real} |"
+    ],
+    "row_contact_leadsource_real": [
+      "| `Contact.LeadSource` | undeclared | {m:row_contact_leadsource_raw} | {m:row_contact_leadsource_away} | {} |"
+    ],
+    "window_24_attributed": [
+      "| 24 h | {} | {m:window_24_unattributable} | {m:window_24_pct}% |"
+    ],
+    "window_24_unattributable": [
+      "| 24 h | {m:window_24_attributed} | {} | {m:window_24_pct}% |"
+    ],
+    "window_24_pct": [
+      "| 24 h | {m:window_24_attributed} | {m:window_24_unattributable} | {}% |"
+    ],
+    "window_72_attributed": [
+      "| 72 h | {} | {m:window_72_unattributable} | {m:window_72_pct}% |"
+    ],
+    "window_72_unattributable": [
+      "| 72 h | {m:window_72_attributed} | {} | {m:window_72_pct}% |"
+    ],
+    "window_72_pct": [
+      "| 72 h | {m:window_72_attributed} | {m:window_72_unattributable} | {}% |"
+    ],
+    "window_720_attributed": [
+      "| 720 h | {} | {m:window_720_unattributable} | {m:window_720_pct}% |"
+    ],
+    "window_720_unattributable": [
+      "| 720 h | {m:window_720_attributed} | {} | {m:window_720_pct}% |"
+    ],
+    "window_720_pct": [
+      "| 720 h | {m:window_720_attributed} | {m:window_720_unattributable} | {}% |"
+    ],
+    "skew_0_within": [
+      "| 0 s | {} | {m:skew_0_later} |"
+    ],
+    "skew_0_later": [
+      "| 0 s | {m:skew_0_within} | {} |"
+    ],
+    "skew_5_within": [
+      "| 5 s | {} | {m:skew_5_later} |"
+    ],
+    "skew_5_later": [
+      "| 5 s | {m:skew_5_within} | {} |"
+    ],
+    "skew_60_within": [
+      "| 60 s | {} | {m:skew_60_later} |"
+    ],
+    "skew_60_later": [
+      "| 60 s | {m:skew_60_within} | {} |"
+    ]
+  },
+  "checked_documents": [
+    "README.md",
+    "fixture/README.md",
+    "docs/adr/ADR-001-a-contract-over-two-logs-is-the-referee.md",
+    "docs/adr/ADR-002-the-integration-identities-are-part-of-the-contract.md",
+    "docs/adr/ADR-003-unattributable-is-a-verdict.md",
+    "docs/adr/ADR-004-standard-library-at-runtime-express-in-the-mock.md",
+    "docs/adr/ADR-005-what-two-snapshots-cannot-establish.md"
+  ],
+  "banner": {
+    "path": "docs/assets/banner.svg",
+    "figures": {
+      "real_diffs": "{} real diffs",
+      "stale_external": "{} blame the ERP",
+      "stale_salesforce": "{} blame Salesforce",
+      "unattributable_total": "{} no referee can attribute"
+    }
+  },
+  "note": "every value here is produced by running the suite and the experiments; tools/collect_metrics.js wrote it"
+}

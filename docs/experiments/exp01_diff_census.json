@@ -1,0 +1,131 @@
+{
+  "recordsPerSide": {
+    "salesforce": 397,
+    "external": 398
+  },
+  "joinedRecords": 395,
+  "comparedFields": 2765,
+  "contractFields": 14,
+  "undeclaredFields": 2,
+  "rawDifferences": 103,
+  "normalisedAway": 18,
+  "normalisedAwayPct": 17.5,
+  "realDiffs": 85,
+  "realDiffsPctOfCompared": 3.1,
+  "byOwner": {
+    "salesforce": 12,
+    "external": 20,
+    "shared": 51,
+    "undeclared": 2
+  },
+  "byObject": {
+    "Account": 39,
+    "Contact": 46
+  },
+  "normalisedByReason": {
+    "us_phone+empty_as_null": 6,
+    "trim": 2,
+    "trim+lower": 6,
+    "trim+picklist": 4
+  },
+  "byField": {
+    "Account.Name": {
+      "owner": "salesforce",
+      "raw": 9,
+      "normalisedAway": 2,
+      "real": 7
+    },
+    "Account.Phone": {
+      "owner": "shared",
+      "raw": 13,
+      "normalisedAway": 4,
+      "real": 9
+    },
+    "Account.Industry": {
+      "owner": "salesforce",
+      "raw": 5,
+      "normalisedAway": 0,
+      "real": 5
+    },
+    "Account.BillingCountry": {
+      "owner": "shared",
+      "raw": 6,
+      "normalisedAway": 2,
+      "real": 4
+    },
+    "Account.AccountNumber": {
+      "owner": "external",
+      "raw": 6,
+      "normalisedAway": 0,
+      "real": 6
+    },
+    "Account.Website": {
+      "owner": "shared",
+      "raw": 9,
+      "normalisedAway": 2,
+      "real": 7
+    },
+    "Account.Rating": {
+      "owner": "undeclared",
+      "raw": 1,
+      "normalisedAway": 0,
+      "real": 1
+    },
+    "Contact.Email": {
+      "owner": "shared",
+      "raw": 15,
+      "normalisedAway": 4,
+      "real": 11
+    },
+    "Contact.Phone": {
+      "owner": "shared",
+      "raw": 9,
+      "normalisedAway": 2,
+      "real": 7
+    },
+    "Contact.Title": {
+      "owner": "external",
+      "raw": 9,
+      "normalisedAway": 0,
+      "real": 9
+    },
+    "Contact.MailingCountry": {
+      "owner": "shared",
+      "raw": 7,
+      "normalisedAway": 2,
+      "real": 5
+    },
+    "Contact.Department": {
+      "owner": "shared",
+      "raw": 8,
+      "normalisedAway": 0,
+      "real": 8
+    },
+    "Contact.ERP_Status__c": {
+      "owner": "external",
+      "raw": 5,
+      "normalisedAway": 0,
+      "real": 5
+    },
+    "Contact.LeadSource": {
+      "owner": "undeclared",
+      "raw": 1,
+      "normalisedAway": 0,
+      "real": 1
+    }
+  },
+  "orphans": 5,
+  "orphansBySide": {
+    "salesforce": 2,
+    "external": 3
+  },
+  "writes": {
+    "salesforce": 159,
+    "external": 169
+  },
+  "skippedAudit": {
+    "unmappedEntity": 0,
+    "unmappedField": 0,
+    "recordGone": 0
+  }
+}

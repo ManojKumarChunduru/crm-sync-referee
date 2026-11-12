@@ -1,0 +1,733 @@
+{
+  "realDiffs": 85,
+  "staleExternal": 30,
+  "staleSalesforce": 34,
+  "staleExternalPct": 35.3,
+  "staleSalesforcePct": 40,
+  "attributed": 64,
+  "attributedPct": 75.3,
+  "unattributable": 21,
+  "unattributablePct": 24.7,
+  "byVerdict": {
+    "not_a_diff": 18,
+    "external_stale": 30,
+    "salesforce_stale": 34,
+    "window_closed": 10,
+    "within_clock_skew": 4,
+    "sync_transform": 4,
+    "contract_silent": 2,
+    "gap_event": 1
+  },
+  "byCause": {
+    "sync_lag": 36,
+    "rogue_write": 9,
+    "echo_of_stale_value": 6,
+    "later_write": 8,
+    "sync_transform": 2,
+    "window_closed": 3
+  },
+  "windowClosed": 10,
+  "windowClosedPct": 11.8,
+  "withinSkew": 4,
+  "syncTransformVerdicts": 4,
+  "contractSilent": 2,
+  "gapEvent": 1,
+  "namedByContractAlone": 3,
+  "echoes": 6,
+  "rogueWrites": 9,
+  "syncLag": 36,
+  "laterWrites": 8,
+  "groundTruth": {
+    "planted": 103,
+    "reported": 103,
+    "truePositives": 103,
+    "wrongVerdict": 0,
+    "falsePositives": 0,
+    "falseNegatives": 0,
+    "recall": 100,
+    "resolutionFloor": "1 in 103",
+    "note": "A fixture written by the referee's author checks the rule arithmetic, not discovery; zero false positives, zero false negatives and zero wrong verdicts are each a rate below 1 in the planted count."
+  },
+  "rows": [
+    {
+      "key": "001Kd0000000003AAA",
+      "field": "Account.Industry",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000003AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000012AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000021AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000022AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000024AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000026AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000028AAA",
+      "field": "Account.Industry",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000038AAA",
+      "field": "Account.Industry",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000045AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000047AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000048AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000050AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000051AAA",
+      "field": "Account.BillingCountry",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000052AAA",
+      "field": "Account.BillingCountry",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000055AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000056AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000057AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000066AAA",
+      "field": "Account.Industry",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000081AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000082AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "window_closed",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000089AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000091AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000096AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000096AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000104AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000106AAA",
+      "field": "Account.BillingCountry",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000111AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000112AAA",
+      "field": "Account.Industry",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000116AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000117AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000120AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000123AAA",
+      "field": "Account.Rating",
+      "owner": "undeclared",
+      "verdict": "contract_silent",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "001Kd0000000130AAA",
+      "field": "Account.BillingCountry",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000131AAA",
+      "field": "Account.Name",
+      "owner": "salesforce",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000131AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000137AAA",
+      "field": "Account.Phone",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "001Kd0000000137AAA",
+      "field": "Account.AccountNumber",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "window_closed",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "001Kd0000000142AAA",
+      "field": "Account.Website",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000001AAA",
+      "field": "Contact.ERP_Status__c",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000003AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000009AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000013AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000015AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000016AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000021AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "gap_event",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000026AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000032AAA",
+      "field": "Contact.MailingCountry",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000035AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000040AAA",
+      "field": "Contact.ERP_Status__c",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000049AAA",
+      "field": "Contact.ERP_Status__c",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000050AAA",
+      "field": "Contact.MailingCountry",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000053AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000055AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000060AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000073AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000079AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000081AAA",
+      "field": "Contact.ERP_Status__c",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "window_closed",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000085AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000087AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000088AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000094AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000107AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000112AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000116AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000125AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000127AAA",
+      "field": "Contact.MailingCountry",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000133AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000145AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000148AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000148AAA",
+      "field": "Contact.LeadSource",
+      "owner": "undeclared",
+      "verdict": "contract_silent",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000150AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000161AAA",
+      "field": "Contact.MailingCountry",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000166AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000170AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_transform",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000176AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000179AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000198AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_transform",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000203AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000212AAA",
+      "field": "Contact.Department",
+      "owner": "shared",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000218AAA",
+      "field": "Contact.Title",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000225AAA",
+      "field": "Contact.Phone",
+      "owner": "shared",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    },
+    {
+      "key": "003Kd0000000229AAA",
+      "field": "Contact.Email",
+      "owner": "shared",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external"
+    },
+    {
+      "key": "003Kd0000000229AAA",
+      "field": "Contact.MailingCountry",
+      "owner": "shared",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null
+    },
+    {
+      "key": "003Kd0000000240AAA",
+      "field": "Contact.ERP_Status__c",
+      "owner": "external",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce"
+    }
+  ]
+}

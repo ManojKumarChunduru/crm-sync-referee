@@ -1,0 +1,473 @@
+{
+  "naiveRows": 103,
+  "correct": 47,
+  "correctPct": 55.3,
+  "wrong": 56,
+  "wrongReal": 38,
+  "wrongRealPct": 44.7,
+  "byWhy": {
+    "normalisation": 18,
+    "echo": 8,
+    "rogue_write": 9,
+    "within_skew": 4,
+    "window_closed": 10,
+    "sync_transform": 4,
+    "contract_silent": 2,
+    "gap_event": 1,
+    "other": 0
+  },
+  "defaulted": 9,
+  "decidedByAnEcho": 12,
+  "wrongSideNamed": 17,
+  "decidedTheUndecidable": 21,
+  "rows": [
+    {
+      "key": "001Kd0000000003AAA",
+      "field": "Account.Phone",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000006AAA",
+      "field": "Account.Phone",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000009AAA",
+      "field": "Account.Name",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000024AAA",
+      "field": "Account.Phone",
+      "naive": "external",
+      "truth": "within_clock_skew",
+      "cause": null,
+      "why": "within_skew"
+    },
+    {
+      "key": "001Kd0000000037AAA",
+      "field": "Account.Website",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000038AAA",
+      "field": "Account.Industry",
+      "naive": "salesforce",
+      "truth": "external_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000045AAA",
+      "field": "Account.AccountNumber",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000048AAA",
+      "field": "Account.Name",
+      "naive": "salesforce",
+      "truth": "external_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000051AAA",
+      "field": "Account.BillingCountry",
+      "naive": "external",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000057AAA",
+      "field": "Account.Website",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000066AAA",
+      "field": "Account.Industry",
+      "naive": "salesforce",
+      "truth": "external_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000080AAA",
+      "field": "Account.Website",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000081AAA",
+      "field": "Account.AccountNumber",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000089AAA",
+      "field": "Account.Phone",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000091AAA",
+      "field": "Account.Phone",
+      "naive": "external",
+      "truth": "within_clock_skew",
+      "cause": null,
+      "why": "within_skew"
+    },
+    {
+      "key": "001Kd0000000092AAA",
+      "field": "Account.Phone",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000097AAA",
+      "field": "Account.Name",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000104AAA",
+      "field": "Account.Phone",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000106AAA",
+      "field": "Account.BillingCountry",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000117AAA",
+      "field": "Account.Name",
+      "naive": "salesforce",
+      "truth": "external_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000120AAA",
+      "field": "Account.Website",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "001Kd0000000123AAA",
+      "field": "Account.Rating",
+      "naive": "salesforce",
+      "truth": "contract_silent",
+      "cause": null,
+      "why": "contract_silent"
+    },
+    {
+      "key": "001Kd0000000124AAA",
+      "field": "Account.Phone",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000127AAA",
+      "field": "Account.BillingCountry",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "001Kd0000000131AAA",
+      "field": "Account.Name",
+      "naive": "salesforce",
+      "truth": "external_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "001Kd0000000138AAA",
+      "field": "Account.BillingCountry",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000013AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000015AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "003Kd0000000016AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000018AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000021AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "gap_event",
+      "cause": null,
+      "why": "gap_event"
+    },
+    {
+      "key": "003Kd0000000026AAA",
+      "field": "Contact.Department",
+      "naive": "salesforce",
+      "truth": "sync_transform",
+      "cause": null,
+      "why": "sync_transform"
+    },
+    {
+      "key": "003Kd0000000035AAA",
+      "field": "Contact.Email",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "003Kd0000000040AAA",
+      "field": "Contact.ERP_Status__c",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "rogue_write",
+      "why": "rogue_write"
+    },
+    {
+      "key": "003Kd0000000055AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000073AAA",
+      "field": "Contact.Phone",
+      "naive": "salesforce",
+      "truth": "within_clock_skew",
+      "cause": null,
+      "why": "within_skew"
+    },
+    {
+      "key": "003Kd0000000079AAA",
+      "field": "Contact.Phone",
+      "naive": "salesforce",
+      "truth": "within_clock_skew",
+      "cause": null,
+      "why": "within_skew"
+    },
+    {
+      "key": "003Kd0000000085AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000107AAA",
+      "field": "Contact.Email",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "003Kd0000000125AAA",
+      "field": "Contact.Department",
+      "naive": "salesforce",
+      "truth": "sync_transform",
+      "cause": null,
+      "why": "sync_transform"
+    },
+    {
+      "key": "003Kd0000000127AAA",
+      "field": "Contact.MailingCountry",
+      "naive": "salesforce",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    },
+    {
+      "key": "003Kd0000000133AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000135AAA",
+      "field": "Contact.MailingCountry",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000148AAA",
+      "field": "Contact.LeadSource",
+      "naive": "salesforce",
+      "truth": "contract_silent",
+      "cause": null,
+      "why": "contract_silent"
+    },
+    {
+      "key": "003Kd0000000149AAA",
+      "field": "Contact.Email",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000150AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000164AAA",
+      "field": "Contact.Email",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000166AAA",
+      "field": "Contact.Department",
+      "naive": "salesforce",
+      "truth": "sync_transform",
+      "cause": null,
+      "why": "sync_transform"
+    },
+    {
+      "key": "003Kd0000000168AAA",
+      "field": "Contact.Phone",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000170AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "sync_transform",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000177AAA",
+      "field": "Contact.Phone",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000193AAA",
+      "field": "Contact.MailingCountry",
+      "naive": "external",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000198AAA",
+      "field": "Contact.Title",
+      "naive": "external",
+      "truth": "salesforce_stale",
+      "cause": "sync_transform",
+      "why": "echo"
+    },
+    {
+      "key": "003Kd0000000208AAA",
+      "field": "Contact.Email",
+      "naive": "salesforce",
+      "truth": "not_a_diff",
+      "cause": null,
+      "why": "normalisation"
+    },
+    {
+      "key": "003Kd0000000212AAA",
+      "field": "Contact.Department",
+      "naive": "salesforce",
+      "truth": "sync_transform",
+      "cause": null,
+      "why": "sync_transform"
+    },
+    {
+      "key": "003Kd0000000229AAA",
+      "field": "Contact.MailingCountry",
+      "naive": "external",
+      "truth": "window_closed",
+      "cause": null,
+      "why": "window_closed"
+    }
+  ]
+}
