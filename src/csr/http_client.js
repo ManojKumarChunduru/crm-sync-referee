@@ -18,6 +18,15 @@ export class HttpClientError extends Error {
   }
 }
 
+/** The code behind a failed fetch (ECONNREFUSED and the like), wherever undici put it. */
+export function socketCode(error) {
+  const cause = error && error.cause;
+  if (!cause) return null;
+  if (cause.code) return cause.code;
+  if (Array.isArray(cause.errors) && cause.errors[0] && cause.errors[0].code) return cause.errors[0].code;
+  return cause.message ?? null;
+}
+
 const DEFAULTS = {
   tokenPath: "/oauth/token",
   maxRetries: 5,
@@ -39,7 +48,16 @@ export function createClient(o) {
     if (typeof o[k] !== "string" || o[k] === "") throw new HttpClientError(`http client needs ${k}`);
   }
   const base = o.baseUrl.replace(/\/+$/, "");
-  const fetchImpl = o.fetch ?? globalThis.fetch;
+  const rawFetch = o.fetch ?? globalThis.fetch;
+  /** A connection failure becomes a client error naming the socket code, never a bare "fetch failed". */
+  const fetchImpl = async (url, init) => {
+    try {
+      return await rawFetch(url, init);
+    } catch (error) {
+      if (error instanceof HttpClientError) throw error;
+      throw new HttpClientError(`${url}: ${socketCode(error) ?? error.message}`);
+    }
+  };
   const sleep = o.sleep ?? ((seconds) => new Promise((resolve) => setTimeout(resolve, seconds * 1000)));
   const now = o.now ?? (() => Date.now());
   const cfg = { ...DEFAULTS, ...o };

@@ -147,7 +147,6 @@ export async function run(argv, stdout = process.stdout, stderr = process.stderr
       return EXIT_CLEAN;
     } catch (error) {
       if (error instanceof ContractError || error instanceof HttpClientError) return usageError(stderr, error.message);
-      if (error && error.cause && error.cause.code) return usageError(stderr, `${values.from}: ${error.cause.code}`);
       throw error;
     }
   }
