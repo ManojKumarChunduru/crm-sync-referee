@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    name: "verify (node ${{ matrix.node }})"
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ["20", "22", "24"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Install dev dependencies (Express for the mock, eslint, c8)
+        run: npm install --no-audit --no-fund
+      - name: Lint
+        run: npx eslint .
+      - name: Tests with coverage (the mock runs on a loopback port)
+        run: make coverage
+      - name: "Coverage floor: 95% of lines"
+        run: |
+          node -e "const p=require('./coverage/coverage-summary.json').total.lines.pct; console.log('line coverage', p); if (p < 95) process.exit(1)"
+      - name: Experiments
+        run: make experiments
+      - name: "Experiments are byte-identical to the committed copies"
+        run: git diff --exit-code -- docs/experiments
+      - name: Receipts
+        run: make receipts
+      - name: "metrics.json is byte-identical to the committed copy"
+        run: git diff --exit-code -- docs/metrics.json
+      - name: Upload the report and the receipts
+        if: matrix.node == '22'
+        uses: actions/upload-artifact@v4
+        with:
+          name: receipts
+          path: |
+            docs/metrics.json
+            docs/experiments/*.json
+            docs/test-results.xml
+            coverage/coverage-summary.json
+
+  gate:
+    name: "gate: csr referee on the fixture with nothing installed (expects exit 2)"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: "Install with --omit=dev: the referee has no runtime dependencies"
+        run: npm ci --omit=dev --no-audit --no-fund
+      - name: "Run the referee"
+        run: |
+          set +e
+          node bin/csr referee --salesforce fixture/salesforce --external fixture/external --contract contract/sync-contract.json \
+            --markdown referee-summary.md --json referee.json
+          code=$?
+          set -e
+          echo "csr exit code: $code"
+          test "$code" -eq 2
+      - name: Publish the awkward table to the job summary
+        if: always()
+        run: cat referee-summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: "The same fixture with a 30-day archive of change events (still exit 2: skew, silent, transform and gap rows remain)"
+        run: |
+          set +e
+          node bin/csr referee --salesforce fixture/salesforce --external fixture/external --contract contract/sync-contract.json --window 720h
+          code=$?
+          set -e
+          echo "csr exit code at 720h: $code"
+          test "$code" -eq 2
