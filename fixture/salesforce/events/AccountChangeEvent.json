@@ -1,0 +1,1638 @@
+[
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000106AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000001-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1792195200000,
+          "commitNumber": 1001000001,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "BillingCountry",
+            "LastModifiedDate"
+          ]
+        },
+        "BillingCountry": "United Kingdom",
+        "LastModifiedDate": "2026-10-17T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000001
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000089AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000002-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1792713600000,
+          "commitNumber": 1001000002,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-9708",
+        "LastModifiedDate": "2026-10-23T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000002
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000131AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000003-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1792886467000,
+          "commitNumber": 1001000003,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-28152",
+        "LastModifiedDate": "2026-10-25T00:01:07.000Z"
+      },
+      "event": {
+        "replayId": 1000003
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000116AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000004-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793145600000,
+          "commitNumber": 1001000004,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Finance",
+        "LastModifiedDate": "2026-10-28T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000004
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000120AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000005-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793318400000,
+          "commitNumber": 1001000005,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.summit-foods.example",
+        "LastModifiedDate": "2026-10-30T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000005
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000043AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000006-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793404800000,
+          "commitNumber": 1001000006,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Transportation",
+        "LastModifiedDate": "2026-10-31T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000006
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000002AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000007-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793664000000,
+          "commitNumber": 1001000007,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Granite Robotics Partners",
+        "LastModifiedDate": "2026-11-03T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000007
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000082AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000008-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793664000000,
+          "commitNumber": 1001000008,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Beacon Textiles Partners",
+        "LastModifiedDate": "2026-11-03T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000008
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000104AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000009-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793750400000,
+          "commitNumber": 1001000009,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-2430",
+        "LastModifiedDate": "2026-11-04T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000009
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000057AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000010-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793923200000,
+          "commitNumber": 1001000010,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.pioneer-holdings.example",
+        "LastModifiedDate": "2026-11-06T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000010
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000103AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000011-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1793923200000,
+          "commitNumber": 1001000011,
+          "commitUser": "005Kd0000000A4EAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Marigold Studios Group",
+        "LastModifiedDate": "2026-11-06T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000011
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000027AAA"
+          ],
+          "changeType": "CREATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000012-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794027600000,
+          "commitNumber": 1001000012,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": []
+        },
+        "Name": "Silverline Brewing Co",
+        "Phone": "555-010-1027",
+        "Industry": "Retail",
+        "BillingCountry": "Canada",
+        "AccountNumber": "ACC-10027",
+        "Website": "https://www.silverline-brewing-co.example",
+        "Rating": "Hot",
+        "CreatedDate": "2026-11-07T05:00:00.000Z",
+        "LastModifiedDate": "2026-11-07T05:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000012
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000096AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000013-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794027600000,
+          "commitNumber": 1001000013,
+          "commitUser": "005Kd0000000A4EAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-4589",
+        "LastModifiedDate": "2026-11-07T05:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000013
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000012AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000014-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794038400000,
+          "commitNumber": 1001000014,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Summit Analytics Partners",
+        "LastModifiedDate": "2026-11-07T08:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000014
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000023AAA"
+          ],
+          "changeType": "CREATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000015-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794038400000,
+          "commitNumber": 1001000015,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": []
+        },
+        "Name": "Harbor Marine Ltd",
+        "Phone": "555-010-1023",
+        "Industry": "Transportation",
+        "BillingCountry": "Australia",
+        "AccountNumber": "ACC-10023",
+        "Website": "https://www.harbor-marine-ltd.example",
+        "Rating": "Cold",
+        "CreatedDate": "2026-11-07T08:00:00.000Z",
+        "LastModifiedDate": "2026-11-07T08:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000015
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000039AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000016-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794042748000,
+          "commitNumber": 1001000016,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-28950",
+        "LastModifiedDate": "2026-11-07T09:12:28.000Z"
+      },
+      "event": {
+        "replayId": 1000016
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000045AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000017-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794052800000,
+          "commitNumber": 1001000017,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-25572",
+        "LastModifiedDate": "2026-11-07T12:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000017
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000006AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000018-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794056400000,
+          "commitNumber": 1001000018,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "+1 555 010 1006",
+        "LastModifiedDate": "2026-11-07T13:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000018
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000032AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000019-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794060000000,
+          "commitNumber": 1001000019,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Westbrook Freight LLC",
+        "LastModifiedDate": "2026-11-07T14:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000019
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000092AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000020-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794060000000,
+          "commitNumber": 1001000020,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Cobalt Analytics Co",
+        "LastModifiedDate": "2026-11-07T14:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000020
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000104AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000021-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794060000000,
+          "commitNumber": 1001000021,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Finance",
+        "LastModifiedDate": "2026-11-07T14:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000021
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000050AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000022-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794067200000,
+          "commitNumber": 1001000022,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-9385",
+        "LastModifiedDate": "2026-11-07T16:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000022
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000014AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000023-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794074400000,
+          "commitNumber": 1001000023,
+          "commitUser": "005Kd0000000A1BAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Silverline Freight Inc",
+        "LastModifiedDate": "2026-11-07T18:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000023
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000092AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000024-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794078000000,
+          "commitNumber": 1001000024,
+          "commitUser": "005Kd0000000A4EAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Manufacturing",
+        "LastModifiedDate": "2026-11-07T19:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000024
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000022AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000025-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794088800000,
+          "commitNumber": 1001000025,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-8368",
+        "LastModifiedDate": "2026-11-07T22:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000025
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000012AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000026-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794121200000,
+          "commitNumber": 1001000026,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Manufacturing",
+        "LastModifiedDate": "2026-11-08T07:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000026
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000026AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000027-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794121200000,
+          "commitNumber": 1001000027,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Harbor Brewing Co",
+        "LastModifiedDate": "2026-11-08T07:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000027
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000127AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000028-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794128400000,
+          "commitNumber": 1001000028,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "BillingCountry",
+            "LastModifiedDate"
+          ]
+        },
+        "BillingCountry": "GB",
+        "LastModifiedDate": "2026-11-08T09:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000028
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000081AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000029-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794139200000,
+          "commitNumber": 1001000029,
+          "commitUser": "005Kd0000000A4EAAU",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-29463",
+        "LastModifiedDate": "2026-11-08T12:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000029
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000056AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000030-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794150000000,
+          "commitNumber": 1001000030,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Redwood Metals Co",
+        "LastModifiedDate": "2026-11-08T15:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000030
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000116AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000031-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794157200000,
+          "commitNumber": 1001000031,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.clearwater-robotics.example",
+        "LastModifiedDate": "2026-11-08T17:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000031
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000091AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000032-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794160800000,
+          "commitNumber": 1001000032,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-3861",
+        "LastModifiedDate": "2026-11-08T18:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000032
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000003AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000033-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794178800000,
+          "commitNumber": 1001000033,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Healthcare",
+        "LastModifiedDate": "2026-11-08T23:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000033
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000142AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000034-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794179169000,
+          "commitNumber": 1001000034,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-29203",
+        "LastModifiedDate": "2026-11-08T23:06:09.000Z"
+      },
+      "event": {
+        "replayId": 1000034
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000034AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000035-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794182400000,
+          "commitNumber": 1001000035,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Granite Farms Co",
+        "LastModifiedDate": "2026-11-09T00:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000035
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000111AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000036-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794189600000,
+          "commitNumber": 1001000036,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.granite-studios.example",
+        "LastModifiedDate": "2026-11-09T02:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000036
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000138AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000037-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794189600000,
+          "commitNumber": 1001000037,
+          "commitUser": "005Kd0000000A1BAAU",
+          "changedFields": [
+            "BillingCountry",
+            "LastModifiedDate"
+          ]
+        },
+        "BillingCountry": "US",
+        "LastModifiedDate": "2026-11-09T02:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000037
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000053AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000038-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794196800000,
+          "commitNumber": 1001000038,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Manufacturing",
+        "LastModifiedDate": "2026-11-09T04:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000038
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000092AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000039-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794200400000,
+          "commitNumber": 1001000039,
+          "commitUser": "005Kd0000000A1BAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "+1 555 010 1092",
+        "LastModifiedDate": "2026-11-09T05:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000039
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000024AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000040-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794207600000,
+          "commitNumber": 1001000040,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-8122",
+        "LastModifiedDate": "2026-11-09T07:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000040
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000029AAA"
+          ],
+          "changeType": "CREATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000041-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794211200000,
+          "commitNumber": 1001000041,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": []
+        },
+        "Name": "Cobalt Learning Ltd",
+        "Phone": "555-010-1029",
+        "Industry": "Finance",
+        "BillingCountry": "Australia",
+        "AccountNumber": "ACC-10029",
+        "Website": "https://www.cobalt-learning-ltd.example",
+        "Rating": "Cold",
+        "CreatedDate": "2026-11-09T08:00:00.000Z",
+        "LastModifiedDate": "2026-11-09T08:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000041
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000131AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000042-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794218400000,
+          "commitNumber": 1001000042,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.pioneer-energy.example",
+        "LastModifiedDate": "2026-11-09T10:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000042
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000112AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000043-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794225600000,
+          "commitNumber": 1001000043,
+          "commitUser": "005Kd0000000A6GAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Manufacturing",
+        "LastModifiedDate": "2026-11-09T12:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000043
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000055AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000044-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794229200000,
+          "commitNumber": 1001000044,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-5589",
+        "LastModifiedDate": "2026-11-09T13:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000044
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000025AAA"
+          ],
+          "changeType": "CREATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000045-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794240000000,
+          "commitNumber": 1001000045,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": []
+        },
+        "Name": "Ironwood Freight Inc",
+        "Phone": "555-010-1025",
+        "Industry": "Manufacturing",
+        "BillingCountry": "United Kingdom",
+        "AccountNumber": "ACC-10025",
+        "Website": "https://www.ironwood-freight-inc.example",
+        "Rating": "Warm",
+        "CreatedDate": "2026-11-09T16:00:00.000Z",
+        "LastModifiedDate": "2026-11-09T16:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000045
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000028AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0",
+          "transactionKey": "0001a-000046-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794240000000,
+          "commitNumber": 1001000046,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Finance",
+        "LastModifiedDate": "2026-11-09T16:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000046
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000104AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000047-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794243600000,
+          "commitNumber": 1001000047,
+          "commitUser": "005Kd0000000A5FAAU",
+          "changedFields": [
+            "Name",
+            "LastModifiedDate"
+          ]
+        },
+        "Name": "Keystone Studios Group",
+        "LastModifiedDate": "2026-11-09T17:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000047
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000137AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "",
+          "transactionKey": "0001a-000048-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794243600000,
+          "commitNumber": 1001000048,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Phone",
+            "LastModifiedDate"
+          ]
+        },
+        "Phone": "555-010-8501",
+        "LastModifiedDate": "2026-11-09T17:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000048
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000141AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000049-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794243883000,
+          "commitNumber": 1001000049,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-29802",
+        "LastModifiedDate": "2026-11-09T17:04:43.000Z"
+      },
+      "event": {
+        "replayId": 1000049
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000063AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000050-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794243953000,
+          "commitNumber": 1001000050,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-23711",
+        "LastModifiedDate": "2026-11-09T17:05:53.000Z"
+      },
+      "event": {
+        "replayId": 1000050
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000001AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/rest/62.0;client=SyncBridge",
+          "transactionKey": "0001a-000051-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794244411000,
+          "commitNumber": 1001000051,
+          "commitUser": "005Kd000000SYNCAAA",
+          "changedFields": [
+            "AccountNumber",
+            "LastModifiedDate"
+          ]
+        },
+        "AccountNumber": "ACC-26877",
+        "LastModifiedDate": "2026-11-09T17:13:31.000Z"
+      },
+      "event": {
+        "replayId": 1000051
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000065AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000052-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794258000000,
+          "commitNumber": 1001000052,
+          "commitUser": "005Kd0000000A1BAAU",
+          "changedFields": [
+            "Industry",
+            "LastModifiedDate"
+          ]
+        },
+        "Industry": "Healthcare",
+        "LastModifiedDate": "2026-11-09T21:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000052
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000096AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000053-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794258000000,
+          "commitNumber": 1001000053,
+          "commitUser": "005Kd0000000A3DAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.harbor-metals.example",
+        "LastModifiedDate": "2026-11-09T21:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000053
+      }
+    }
+  },
+  {
+    "channel": "/data/AccountChangeEvent",
+    "data": {
+      "schema": "kAp7Q9r6N1wq0bQZ8-xVgA",
+      "payload": {
+        "ChangeEventHeader": {
+          "entityName": "Account",
+          "recordIds": [
+            "001Kd0000000142AAA"
+          ],
+          "changeType": "UPDATE",
+          "changeOrigin": "com/salesforce/api/soap/62.0;client=DataLoader",
+          "transactionKey": "0001a-000054-0000-0000-000000000000",
+          "sequenceNumber": 1,
+          "commitTimestamp": 1794265200000,
+          "commitNumber": 1001000054,
+          "commitUser": "005Kd0000000A2CAAU",
+          "changedFields": [
+            "Website",
+            "LastModifiedDate"
+          ]
+        },
+        "Website": "https://www.silverline-robotics.example",
+        "LastModifiedDate": "2026-11-09T23:00:00.000Z"
+      },
+      "event": {
+        "replayId": 1000054
+      }
+    }
+  }
+]

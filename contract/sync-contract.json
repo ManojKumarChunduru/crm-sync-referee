@@ -1,0 +1,91 @@
+{
+  "name": "Salesforce to ERP account and contact sync",
+  "systems": {
+    "salesforce": {
+      "integration_user": "005Kd000000SYNCAAA",
+      "change_origin_client": "SyncBridge",
+      "reason": "Every write the bridge applies into Salesforce commits as this user from a connected app whose changeOrigin ends in client=SyncBridge; a change event carrying either is the bridge echoing the ERP, not a Salesforce user deciding anything (ADR-002)."
+    },
+    "external": {
+      "name": "ERP",
+      "sync_actor": "svc-sync-bridge",
+      "reason": "The bridge writes into the ERP as this service account; an audit entry by it is an echo of Salesforce, not an ERP user deciding anything."
+    }
+  },
+  "clock_skew_tolerance_seconds": 5,
+  "clock_skew_reason": "The two systems stamp writes with two clocks that are not the same clock. Two originating writes closer than this cannot be ordered by their timestamps and the referee says so instead of guessing (ADR-003). 5 s is a policy, not a measurement; ADR-005 says how to measure it.",
+  "retention_hours": 72,
+  "retention_reason": "Change Data Capture keeps change events in the event bus for three days (high-volume platform events: 72 hours). A subscriber replaying from -2 sees nothing older, so the referee reads nothing older unless --window says an archive exists.",
+  "objects": {
+    "Account": {
+      "external_entity": "accounts",
+      "key": { "salesforce": "Id", "external": "sf_id" },
+      "fields": {
+        "Name": {
+          "owner": "salesforce", "external_field": "name", "normalize": ["trim"],
+          "reason": "Sales renames accounts in Salesforce; the ERP displays the name and must never change it."
+        },
+        "Phone": {
+          "owner": "shared", "external_field": "phone", "normalize": ["us_phone", "empty_as_null"],
+          "reason": "Both teams correct phone numbers; the later correction wins. Compared on digits with a leading country code 1 dropped, because the ERP stores them unpunctuated and Salesforce users type +1."
+        },
+        "Industry": {
+          "owner": "salesforce", "external_field": "industry", "normalize": ["trim"],
+          "reason": "A Salesforce picklist maintained by marketing; the ERP mirrors the label."
+        },
+        "BillingCountry": {
+          "owner": "shared", "external_field": "billing_country",
+          "normalize": ["trim", { "name": "picklist", "map": { "US": "United States", "GB": "United Kingdom", "DE": "Germany", "CA": "Canada", "IN": "India", "AU": "Australia" } }],
+          "reason": "Either side may correct the billing country; ERP users sometimes enter the ISO code, which the map folds onto the Salesforce label."
+        },
+        "AccountNumber": {
+          "owner": "external", "external_field": "account_number", "normalize": ["trim"],
+          "reason": "The ERP issues account numbers; Salesforce displays them. A Salesforce write here is a contract violation whoever made it."
+        },
+        "Website": {
+          "owner": "shared", "external_field": "website", "normalize": ["trim", "lower"],
+          "reason": "Both teams update websites; compared case-insensitively because hosts are."
+        },
+        "Rating": {
+          "owner": "undeclared", "external_field": "rating", "normalize": ["trim"],
+          "reason": "Mapped by the sync since the first release; nobody has decided who owns it. The referee reports a difference here as contract silent rather than picking a side."
+        }
+      }
+    },
+    "Contact": {
+      "external_entity": "contacts",
+      "key": { "salesforce": "Id", "external": "sf_id" },
+      "fields": {
+        "Email": {
+          "owner": "shared", "external_field": "email", "normalize": ["trim", "lower"],
+          "reason": "Either team may correct an email; the later correction wins; compared case-insensitively."
+        },
+        "Phone": {
+          "owner": "shared", "external_field": "phone", "normalize": ["us_phone", "empty_as_null"],
+          "reason": "As for Account.Phone."
+        },
+        "Title": {
+          "owner": "external", "external_field": "title", "normalize": ["trim"],
+          "reason": "HR data lives in the ERP; Salesforce displays the title. The ERP allows 60 characters."
+        },
+        "MailingCountry": {
+          "owner": "shared", "external_field": "mailing_country",
+          "normalize": ["trim", { "name": "picklist", "map": { "US": "United States", "GB": "United Kingdom", "DE": "Germany", "CA": "Canada", "IN": "India", "AU": "Australia" } }],
+          "reason": "As for Account.BillingCountry."
+        },
+        "Department": {
+          "owner": "shared", "external_field": "department", "normalize": ["trim"],
+          "reason": "Both teams maintain departments. The bridge truncates to 40 characters into Salesforce and title-cases on the way back, which is the transform the referee has to catch."
+        },
+        "ERP_Status__c": {
+          "owner": "external", "external_field": "status", "normalize": ["trim"],
+          "reason": "The ERP decides whether a contact is active; Salesforce only displays it."
+        },
+        "LeadSource": {
+          "owner": "undeclared", "external_field": "source", "normalize": ["trim"],
+          "reason": "Mapped by the sync; ownership never decided."
+        }
+      }
+    }
+  }
+}

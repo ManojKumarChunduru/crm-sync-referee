@@ -1,0 +1,962 @@
+{
+  "as_of": "2026-11-10T00:00:00.000Z",
+  "window_hours": 72,
+  "skew_seconds": 5,
+  "seed": 20261110,
+  "rows": [
+    {
+      "object": "Account",
+      "key": "001Kd0000000003AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000003AAA",
+      "field": "Industry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000003AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000006AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000009AAA",
+      "field": "Name",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000012AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000021AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000022AAA",
+      "field": "Phone",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce",
+      "scenario": "K: shared field, originating writes hours apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000024AAA",
+      "field": "Phone",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "I: originating writes 4 s apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000026AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000028AAA",
+      "field": "Industry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000037AAA",
+      "field": "Website",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000038AAA",
+      "field": "Industry",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external",
+      "scenario": "D: rogue external write on a Salesforce-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000045AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce",
+      "scenario": "E: rogue Salesforce write on an external-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000047AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000048AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external",
+      "scenario": "D: rogue external write on a Salesforce-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000050AAA",
+      "field": "Phone",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000051AAA",
+      "field": "BillingCountry",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before any log"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000052AAA",
+      "field": "BillingCountry",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000055AAA",
+      "field": "Phone",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce",
+      "scenario": "K: shared field, originating writes hours apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000056AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000057AAA",
+      "field": "Website",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000066AAA",
+      "field": "Industry",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external",
+      "scenario": "D: rogue external write on a Salesforce-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000080AAA",
+      "field": "Website",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000081AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce",
+      "scenario": "E: rogue Salesforce write on an external-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000082AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "window_closed",
+      "staleSide": "external",
+      "scenario": "Q: owned field, the only write is older than the window"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000089AAA",
+      "field": "Phone",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000091AAA",
+      "field": "Phone",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "I: originating writes 2 s apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000092AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000096AAA",
+      "field": "Phone",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000096AAA",
+      "field": "Website",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000097AAA",
+      "field": "Name",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000104AAA",
+      "field": "Phone",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000106AAA",
+      "field": "BillingCountry",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000111AAA",
+      "field": "Website",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000112AAA",
+      "field": "Industry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000116AAA",
+      "field": "Website",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce",
+      "scenario": "K: shared field, originating writes hours apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000117AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external",
+      "scenario": "D: rogue external write on a Salesforce-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000120AAA",
+      "field": "Website",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000123AAA",
+      "field": "Rating",
+      "verdict": "contract_silent",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "L: mapped by the sync, ownership never decided"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000124AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000127AAA",
+      "field": "BillingCountry",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000130AAA",
+      "field": "BillingCountry",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000131AAA",
+      "field": "Name",
+      "verdict": "external_stale",
+      "cause": "rogue_write",
+      "staleSide": "external",
+      "scenario": "D: rogue external write on a Salesforce-owned field"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000131AAA",
+      "field": "Website",
+      "verdict": "salesforce_stale",
+      "cause": "later_write",
+      "staleSide": "salesforce",
+      "scenario": "K: shared field, originating writes 31 s apart"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000137AAA",
+      "field": "AccountNumber",
+      "verdict": "salesforce_stale",
+      "cause": "window_closed",
+      "staleSide": "salesforce",
+      "scenario": "Q: owned field, the only write is older than the window"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000137AAA",
+      "field": "Phone",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000138AAA",
+      "field": "BillingCountry",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Account",
+      "key": "001Kd0000000142AAA",
+      "field": "Website",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000001AAA",
+      "field": "ERP_Status__c",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000003AAA",
+      "field": "Department",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external",
+      "scenario": "K: shared field, originating writes 33 s apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000009AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000013AAA",
+      "field": "Email",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000015AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce",
+      "scenario": "E: rogue Salesforce write on an external-owned field"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000016AAA",
+      "field": "Email",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000018AAA",
+      "field": "Email",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000021AAA",
+      "field": "Email",
+      "verdict": "gap_event",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "M: a gap event for the record inside the window"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000026AAA",
+      "field": "Department",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "G: the bridge wrote both values"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000032AAA",
+      "field": "MailingCountry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000035AAA",
+      "field": "Email",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000040AAA",
+      "field": "ERP_Status__c",
+      "verdict": "salesforce_stale",
+      "cause": "rogue_write",
+      "staleSide": "salesforce",
+      "scenario": "E: rogue Salesforce write on an external-owned field"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000049AAA",
+      "field": "ERP_Status__c",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000050AAA",
+      "field": "MailingCountry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000053AAA",
+      "field": "Phone",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000055AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000060AAA",
+      "field": "Phone",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000073AAA",
+      "field": "Phone",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "I: originating writes 1 s apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000079AAA",
+      "field": "Phone",
+      "verdict": "within_clock_skew",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "I: originating writes 3 s apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000081AAA",
+      "field": "ERP_Status__c",
+      "verdict": "salesforce_stale",
+      "cause": "window_closed",
+      "staleSide": "salesforce",
+      "scenario": "Q: owned field, the only write is older than the window"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000085AAA",
+      "field": "Email",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000087AAA",
+      "field": "Email",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000088AAA",
+      "field": "Email",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external",
+      "scenario": "K: shared field, originating writes 39 s apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000094AAA",
+      "field": "Phone",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000107AAA",
+      "field": "Email",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000112AAA",
+      "field": "Email",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000116AAA",
+      "field": "Phone",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000125AAA",
+      "field": "Department",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "G: the bridge wrote both values"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000127AAA",
+      "field": "MailingCountry",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before the window (in a 30-day archive)"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000133AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000135AAA",
+      "field": "MailingCountry",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000145AAA",
+      "field": "Department",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000148AAA",
+      "field": "LeadSource",
+      "verdict": "contract_silent",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "L: mapped by the sync, ownership never decided"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000148AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000149AAA",
+      "field": "Email",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000150AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "echo_of_stale_value",
+      "staleSide": "salesforce",
+      "scenario": "F: batch sync echoed a stale value after the external side moved on"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000161AAA",
+      "field": "MailingCountry",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000164AAA",
+      "field": "Email",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000166AAA",
+      "field": "Department",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "G: the bridge wrote both values"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000168AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000170AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "sync_transform",
+      "staleSide": "salesforce",
+      "scenario": "R: the bridge truncated an external-owned value"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000176AAA",
+      "field": "Email",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external",
+      "scenario": "K: shared field, originating writes hours apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000177AAA",
+      "field": "Phone",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000179AAA",
+      "field": "Department",
+      "verdict": "external_stale",
+      "cause": "later_write",
+      "staleSide": "external",
+      "scenario": "K: shared field, originating writes hours apart"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000193AAA",
+      "field": "MailingCountry",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000198AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "sync_transform",
+      "staleSide": "salesforce",
+      "scenario": "R: the bridge truncated an external-owned value"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000203AAA",
+      "field": "Department",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000208AAA",
+      "field": "Email",
+      "verdict": "not_a_diff",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "A: normalises away"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000212AAA",
+      "field": "Department",
+      "verdict": "sync_transform",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "G: the bridge wrote both values"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000218AAA",
+      "field": "Title",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000225AAA",
+      "field": "Phone",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000229AAA",
+      "field": "Email",
+      "verdict": "external_stale",
+      "cause": "sync_lag",
+      "staleSide": "external",
+      "scenario": "B: Salesforce wrote, sync lag"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000229AAA",
+      "field": "MailingCountry",
+      "verdict": "window_closed",
+      "cause": null,
+      "staleSide": null,
+      "scenario": "H: both wrote before any log"
+    },
+    {
+      "object": "Contact",
+      "key": "003Kd0000000240AAA",
+      "field": "ERP_Status__c",
+      "verdict": "salesforce_stale",
+      "cause": "sync_lag",
+      "staleSide": "salesforce",
+      "scenario": "C: external wrote, sync lag"
+    }
+  ],
+  "orphans": [
+    {
+      "object": "Account",
+      "side": "external",
+      "id": "ERP-A-9001"
+    },
+    {
+      "object": "Account",
+      "side": "external",
+      "id": "ERP-A-9002"
+    },
+    {
+      "object": "Account",
+      "side": "salesforce",
+      "id": "001Kd0000000147AAA"
+    },
+    {
+      "object": "Contact",
+      "side": "external",
+      "id": "ERP-C-9003"
+    },
+    {
+      "object": "Contact",
+      "side": "salesforce",
+      "id": "003Kd0000000246AAA"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_note": "Fixture constants for the mock external system, not secrets. The client id and secret are what csr pull presents to the token endpoint; the lifetime, page size and 429 cadence exist so the client's refresh, pagination and back-off paths run in every test.",
+  "client_id": "sf-sync-bridge",
+  "client_secret": "fixture-secret-not-a-secret",
+  "token_lifetime_seconds": 300,
+  "page_size": 100,
+  "rate_limit_every": 25,
+  "retry_after_seconds": 1
+}

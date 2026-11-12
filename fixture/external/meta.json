@@ -1,0 +1,11 @@
+{
+  "system": "ERP",
+  "as_of": "2026-11-10T00:00:00.000Z",
+  "entities": [
+    "accounts",
+    "contacts"
+  ],
+  "sync_actor": "svc-sync-bridge",
+  "audit_retention": "complete",
+  "note": "Snapshot and audit log of the mock ERP; the same files csr pull writes."
+}

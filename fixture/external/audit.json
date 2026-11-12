@@ -1,0 +1,1694 @@
+{
+  "items": [
+    {
+      "id": "aud-000001",
+      "entity": "contacts",
+      "record_id": "ERP-C-0249",
+      "field": "status",
+      "old": "Active",
+      "new": "On Hold",
+      "actor": "u.dmitri",
+      "at": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000002",
+      "entity": "contacts",
+      "record_id": "ERP-C-0182",
+      "field": "mailing_country",
+      "old": "Germany",
+      "new": "Canada",
+      "actor": "u.farid",
+      "at": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000003",
+      "entity": "contacts",
+      "record_id": "ERP-C-0151",
+      "field": "phone",
+      "old": "555-020-1151",
+      "new": "555-020-7056",
+      "actor": "svc-sync-bridge",
+      "at": "2026-10-17T00:02:31.000Z"
+    },
+    {
+      "id": "aud-000004",
+      "entity": "contacts",
+      "record_id": "ERP-C-0035",
+      "field": "email",
+      "old": "tariq.lindqvist@summit-systems-llc.example",
+      "new": "oren.sato54@mail.example",
+      "actor": "u.bela",
+      "at": "2026-10-17T02:00:00.000Z"
+    },
+    {
+      "id": "aud-000005",
+      "entity": "contacts",
+      "record_id": "ERP-C-0078",
+      "field": "mailing_country",
+      "old": "United States",
+      "new": "India",
+      "actor": "u.esther",
+      "at": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000006",
+      "entity": "accounts",
+      "record_id": "ERP-A-0106",
+      "field": "billing_country",
+      "old": "India",
+      "new": "Australia",
+      "actor": "u.dmitri",
+      "at": "2026-10-18T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000007",
+      "entity": "contacts",
+      "record_id": "ERP-C-0127",
+      "field": "mailing_country",
+      "old": "United Kingdom",
+      "new": "Canada",
+      "actor": "u.esther",
+      "at": "2026-10-18T18:00:00.000Z"
+    },
+    {
+      "id": "aud-000008",
+      "entity": "contacts",
+      "record_id": "ERP-C-0070",
+      "field": "phone",
+      "old": "555-020-1070",
+      "new": "555-020-7656",
+      "actor": "svc-sync-bridge",
+      "at": "2026-10-19T00:00:51.000Z"
+    },
+    {
+      "id": "aud-000009",
+      "entity": "contacts",
+      "record_id": "ERP-C-0212",
+      "field": "department",
+      "old": "Customer Success",
+      "new": "Customer Success and Onboarding Operations Division Northeast",
+      "actor": "u.farid",
+      "at": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000010",
+      "entity": "contacts",
+      "record_id": "ERP-C-0125",
+      "field": "department",
+      "old": "Engineering",
+      "new": "Procurement and Supplier Relationship Management Office",
+      "actor": "u.chen",
+      "at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000011",
+      "entity": "contacts",
+      "record_id": "ERP-C-0166",
+      "field": "department",
+      "old": "Logistics",
+      "new": "Engineering Platform Reliability and Observability Group",
+      "actor": "u.chen",
+      "at": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000012",
+      "entity": "accounts",
+      "record_id": "ERP-A-0089",
+      "field": "phone",
+      "old": "555-010-1089",
+      "new": "555-010-5509",
+      "actor": "u.esther",
+      "at": "2026-10-24T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000013",
+      "entity": "accounts",
+      "record_id": "ERP-A-0131",
+      "field": "account_number",
+      "old": "ACC-10131",
+      "new": "ACC-28152",
+      "actor": "u.amara",
+      "at": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000014",
+      "entity": "contacts",
+      "record_id": "ERP-C-0026",
+      "field": "department",
+      "old": "Procurement",
+      "new": "Finance Shared Services and Statutory Reporting Centre",
+      "actor": "u.chen",
+      "at": "2026-10-25T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000015",
+      "entity": "accounts",
+      "record_id": "ERP-A-0116",
+      "field": "industry",
+      "old": "Energy",
+      "new": "Finance",
+      "actor": "svc-sync-bridge",
+      "at": "2026-10-28T00:10:32.000Z"
+    },
+    {
+      "id": "aud-000016",
+      "entity": "accounts",
+      "record_id": "ERP-A-0137",
+      "field": "account_number",
+      "old": "ACC-10137",
+      "new": "ACC-26199",
+      "actor": "u.bela",
+      "at": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000017",
+      "entity": "contacts",
+      "record_id": "ERP-C-0107",
+      "field": "email",
+      "old": "priya.fontaine@clearwater-foods-llc.example",
+      "new": "noor.jensen65@mail.example",
+      "actor": "u.amara",
+      "at": "2026-10-30T04:00:00.000Z"
+    },
+    {
+      "id": "aud-000018",
+      "entity": "accounts",
+      "record_id": "ERP-A-0120",
+      "field": "website",
+      "old": "https://www.northwind-logistics-llc.example",
+      "new": "https://www.summit-textiles.example",
+      "actor": "u.dmitri",
+      "at": "2026-10-30T05:00:00.000Z"
+    },
+    {
+      "id": "aud-000019",
+      "entity": "accounts",
+      "record_id": "ERP-A-0043",
+      "field": "industry",
+      "old": "Retail",
+      "new": "Transportation",
+      "actor": "svc-sync-bridge",
+      "at": "2026-10-31T00:03:33.000Z"
+    },
+    {
+      "id": "aud-000020",
+      "entity": "contacts",
+      "record_id": "ERP-C-0081",
+      "field": "status",
+      "old": "Active",
+      "new": "On Hold",
+      "actor": "u.amara",
+      "at": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000021",
+      "entity": "accounts",
+      "record_id": "ERP-A-0002",
+      "field": "name",
+      "old": "Clearwater Foods Group",
+      "new": "Granite Robotics Partners",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-03T00:08:27.000Z"
+    },
+    {
+      "id": "aud-000022",
+      "entity": "accounts",
+      "record_id": "ERP-A-0104",
+      "field": "phone",
+      "old": "555-010-1104",
+      "new": "555-010-6677",
+      "actor": "u.chen",
+      "at": "2026-11-05T05:00:00.000Z"
+    },
+    {
+      "id": "aud-000023",
+      "entity": "accounts",
+      "record_id": "ERP-A-0103",
+      "field": "name",
+      "old": "Harbor Marine Inc",
+      "new": "Marigold Studios Group",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-06T00:05:07.000Z"
+    },
+    {
+      "id": "aud-000024",
+      "entity": "accounts",
+      "record_id": "ERP-A-0057",
+      "field": "website",
+      "old": "https://www.marigold-textiles-co.example",
+      "new": "https://www.westbrook-outfitters.example",
+      "actor": "u.amara",
+      "at": "2026-11-06T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000025",
+      "entity": "contacts",
+      "record_id": "ERP-C-0160",
+      "field": "mailing_country",
+      "old": "India",
+      "new": "Germany",
+      "actor": "u.bela",
+      "at": "2026-11-07T02:00:00.000Z"
+    },
+    {
+      "id": "aud-000026",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "name",
+      "old": null,
+      "new": "Silverline Brewing Co",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000027",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "phone",
+      "old": null,
+      "new": "555-010-1027",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000028",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "industry",
+      "old": null,
+      "new": "Retail",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000029",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "billing_country",
+      "old": null,
+      "new": "Canada",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000030",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "account_number",
+      "old": null,
+      "new": "ACC-10027",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000031",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "website",
+      "old": null,
+      "new": "https://www.silverline-brewing-co.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000032",
+      "entity": "accounts",
+      "record_id": "ERP-A-0027",
+      "field": "rating",
+      "old": null,
+      "new": "Hot",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T05:00:45.000Z"
+    },
+    {
+      "id": "aud-000033",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "email",
+      "old": null,
+      "new": "grace.lombardi@marigold-textiles-ltd.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000034",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "phone",
+      "old": null,
+      "new": "555-020-1022",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000035",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "title",
+      "old": null,
+      "new": "Procurement Lead",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000036",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "mailing_country",
+      "old": null,
+      "new": "India",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000037",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "department",
+      "old": null,
+      "new": "Logistics",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000038",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "status",
+      "old": null,
+      "new": "Inactive",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000039",
+      "entity": "contacts",
+      "record_id": "ERP-C-0022",
+      "field": "source",
+      "old": null,
+      "new": "Trade Show",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T06:00:45.000Z"
+    },
+    {
+      "id": "aud-000040",
+      "entity": "contacts",
+      "record_id": "ERP-C-0060",
+      "field": "phone",
+      "old": "555-020-1060",
+      "new": "555-020-5608",
+      "actor": "u.dmitri",
+      "at": "2026-11-07T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000041",
+      "entity": "contacts",
+      "record_id": "ERP-C-0133",
+      "field": "title",
+      "old": "Plant Supervisor",
+      "new": "Customer Success Manager",
+      "actor": "u.esther",
+      "at": "2026-11-07T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000042",
+      "entity": "contacts",
+      "record_id": "ERP-C-0240",
+      "field": "status",
+      "old": "Active",
+      "new": "Inactive",
+      "actor": "u.farid",
+      "at": "2026-11-07T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000043",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "name",
+      "old": null,
+      "new": "Harbor Marine Ltd",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000044",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "phone",
+      "old": null,
+      "new": "555-010-1023",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000045",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "industry",
+      "old": null,
+      "new": "Transportation",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000046",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "billing_country",
+      "old": null,
+      "new": "Australia",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000047",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "account_number",
+      "old": null,
+      "new": "ACC-10023",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000048",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "website",
+      "old": null,
+      "new": "https://www.harbor-marine-ltd.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000049",
+      "entity": "accounts",
+      "record_id": "ERP-A-0023",
+      "field": "rating",
+      "old": null,
+      "new": "Cold",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000050",
+      "entity": "accounts",
+      "record_id": "ERP-A-0039",
+      "field": "account_number",
+      "old": "ACC-10039",
+      "new": "ACC-28950",
+      "actor": "u.chen",
+      "at": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000051",
+      "entity": "contacts",
+      "record_id": "ERP-C-0148",
+      "field": "title",
+      "old": "Logistics Coordinator",
+      "new": "Account Executive",
+      "actor": "u.bela",
+      "at": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000052",
+      "entity": "contacts",
+      "record_id": "ERP-C-0001",
+      "field": "status",
+      "old": "Inactive",
+      "new": "On Hold",
+      "actor": "u.dmitri",
+      "at": "2026-11-07T10:00:00.000Z"
+    },
+    {
+      "id": "aud-000053",
+      "entity": "contacts",
+      "record_id": "ERP-C-0085",
+      "field": "email",
+      "old": "jonas.sato@westbrook-optics-group.example",
+      "new": "maya.oduya50@mail.example",
+      "actor": "u.farid",
+      "at": "2026-11-07T10:00:00.000Z"
+    },
+    {
+      "id": "aud-000054",
+      "entity": "contacts",
+      "record_id": "ERP-C-0133",
+      "field": "title",
+      "old": "Customer Success Manager",
+      "new": "IT Administrator",
+      "actor": "u.amara",
+      "at": "2026-11-07T11:00:00.000Z"
+    },
+    {
+      "id": "aud-000055",
+      "entity": "contacts",
+      "record_id": "ERP-C-0201",
+      "field": "mailing_country",
+      "old": "Canada",
+      "new": "Germany",
+      "actor": "u.chen",
+      "at": "2026-11-07T11:00:00.000Z"
+    },
+    {
+      "id": "aud-000056",
+      "entity": "contacts",
+      "record_id": "ERP-C-0055",
+      "field": "title",
+      "old": "Head of Partnerships",
+      "new": "Procurement Lead",
+      "actor": "u.esther",
+      "at": "2026-11-07T13:00:00.000Z"
+    },
+    {
+      "id": "aud-000057",
+      "entity": "contacts",
+      "record_id": "ERP-C-0150",
+      "field": "title",
+      "old": "Operations Manager",
+      "new": "IT Administrator",
+      "actor": "u.chen",
+      "at": "2026-11-07T13:00:00.000Z"
+    },
+    {
+      "id": "aud-000058",
+      "entity": "contacts",
+      "record_id": "ERP-C-0199",
+      "field": "status",
+      "old": "Inactive",
+      "new": "On Hold",
+      "actor": "u.dmitri",
+      "at": "2026-11-07T13:00:00.000Z"
+    },
+    {
+      "id": "aud-000059",
+      "entity": "contacts",
+      "record_id": "ERP-C-0055",
+      "field": "title",
+      "old": "Procurement Lead",
+      "new": "Customer Success Manager",
+      "actor": "u.chen",
+      "at": "2026-11-07T14:00:00.000Z"
+    },
+    {
+      "id": "aud-000060",
+      "entity": "accounts",
+      "record_id": "ERP-A-0092",
+      "field": "name",
+      "old": "Granite Farms Group",
+      "new": "Cobalt Analytics Co",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T14:03:19.000Z"
+    },
+    {
+      "id": "aud-000061",
+      "entity": "accounts",
+      "record_id": "ERP-A-0104",
+      "field": "industry",
+      "old": "Technology",
+      "new": "Finance",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T14:04:31.000Z"
+    },
+    {
+      "id": "aud-000062",
+      "entity": "accounts",
+      "record_id": "ERP-A-0032",
+      "field": "name",
+      "old": "Granite Farms Group",
+      "new": "Westbrook Freight LLC",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T14:08:52.000Z"
+    },
+    {
+      "id": "aud-000063",
+      "entity": "contacts",
+      "record_id": "ERP-C-0085",
+      "field": "email",
+      "old": "maya.oduya50@mail.example",
+      "new": "femi.tanaka19@mail.example",
+      "actor": "u.chen",
+      "at": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "id": "aud-000064",
+      "entity": "contacts",
+      "record_id": "ERP-C-0148",
+      "field": "source",
+      "old": "Web",
+      "new": "Trade Show",
+      "actor": "u.amara",
+      "at": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "id": "aud-000065",
+      "entity": "contacts",
+      "record_id": "ERP-C-0198",
+      "field": "title",
+      "old": "Logistics Coordinator",
+      "new": "Senior Director of Customer Success and Partner Enablement EMEA",
+      "actor": "u.esther",
+      "at": "2026-11-07T15:00:00.000Z"
+    },
+    {
+      "id": "aud-000066",
+      "entity": "contacts",
+      "record_id": "ERP-C-0150",
+      "field": "title",
+      "old": "IT Administrator",
+      "new": "Plant Supervisor",
+      "actor": "u.dmitri",
+      "at": "2026-11-07T16:00:00.000Z"
+    },
+    {
+      "id": "aud-000067",
+      "entity": "contacts",
+      "record_id": "ERP-C-0016",
+      "field": "email",
+      "old": "caleb.torres@beacon-robotics-ltd.example",
+      "new": "tariq.eriksen80@mail.example",
+      "actor": "u.bela",
+      "at": "2026-11-07T18:00:00.000Z"
+    },
+    {
+      "id": "aud-000068",
+      "entity": "accounts",
+      "record_id": "ERP-A-0014",
+      "field": "name",
+      "old": "Lantern Studios Group",
+      "new": "Silverline Freight Inc",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T18:02:51.000Z"
+    },
+    {
+      "id": "aud-000069",
+      "entity": "contacts",
+      "record_id": "ERP-C-0049",
+      "field": "status",
+      "old": "Inactive",
+      "new": "On Hold",
+      "actor": "u.amara",
+      "at": "2026-11-07T19:00:00.000Z"
+    },
+    {
+      "id": "aud-000070",
+      "entity": "accounts",
+      "record_id": "ERP-A-0092",
+      "field": "industry",
+      "old": "Energy",
+      "new": "Manufacturing",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-07T19:02:57.000Z"
+    },
+    {
+      "id": "aud-000071",
+      "entity": "accounts",
+      "record_id": "ERP-A-0003",
+      "field": "account_number",
+      "old": "ACC-10003",
+      "new": "ACC-23443",
+      "actor": "u.farid",
+      "at": "2026-11-07T21:00:00.000Z"
+    },
+    {
+      "id": "aud-000072",
+      "entity": "accounts",
+      "record_id": "ERP-A-0038",
+      "field": "industry",
+      "old": "Education",
+      "new": "Finance",
+      "actor": "u.amara",
+      "at": "2026-11-07T21:00:00.000Z"
+    },
+    {
+      "id": "aud-000073",
+      "entity": "accounts",
+      "record_id": "ERP-A-0047",
+      "field": "account_number",
+      "old": "ACC-10047",
+      "new": "ACC-26899",
+      "actor": "u.amara",
+      "at": "2026-11-07T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000074",
+      "entity": "contacts",
+      "record_id": "ERP-C-0016",
+      "field": "email",
+      "old": "tariq.eriksen80@mail.example",
+      "new": "quinn.iyer96@mail.example",
+      "actor": "u.farid",
+      "at": "2026-11-07T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000075",
+      "entity": "contacts",
+      "record_id": "ERP-C-0145",
+      "field": "department",
+      "old": "Sales",
+      "new": "Procurement",
+      "actor": "u.farid",
+      "at": "2026-11-07T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000076",
+      "entity": "contacts",
+      "record_id": "ERP-C-0225",
+      "field": "phone",
+      "old": "555-020-1225",
+      "new": "555-020-8912",
+      "actor": "u.farid",
+      "at": "2026-11-07T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000077",
+      "entity": "contacts",
+      "record_id": "ERP-C-0013",
+      "field": "email",
+      "old": "noor.kowalski@northwind-logistics-group.example",
+      "new": "keiko.dubois64@mail.example",
+      "actor": "u.farid",
+      "at": "2026-11-07T23:00:00.000Z"
+    },
+    {
+      "id": "aud-000078",
+      "entity": "contacts",
+      "record_id": "ERP-C-0149",
+      "field": "email",
+      "old": "rosa.brandt@larkspur-metals-llc.example",
+      "new": "Rosa.brandt@larkspur-metals-llc.example",
+      "actor": "u.amara",
+      "at": "2026-11-07T23:00:00.000Z"
+    },
+    {
+      "id": "aud-000079",
+      "entity": "contacts",
+      "record_id": "ERP-C-0013",
+      "field": "email",
+      "old": "keiko.dubois64@mail.example",
+      "new": "noor.rahman40@mail.example",
+      "actor": "u.esther",
+      "at": "2026-11-08T00:00:00.000Z"
+    },
+    {
+      "id": "aud-000080",
+      "entity": "accounts",
+      "record_id": "ERP-A-0130",
+      "field": "billing_country",
+      "old": "India",
+      "new": "United States",
+      "actor": "u.chen",
+      "at": "2026-11-08T01:00:00.000Z"
+    },
+    {
+      "id": "aud-000081",
+      "entity": "contacts",
+      "record_id": "ERP-C-0082",
+      "field": "phone",
+      "old": "555-020-1082",
+      "new": "555-020-6212",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T01:01:25.000Z"
+    },
+    {
+      "id": "aud-000082",
+      "entity": "contacts",
+      "record_id": "ERP-C-0009",
+      "field": "title",
+      "old": "IT Administrator",
+      "new": "Plant Supervisor",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T04:00:00.000Z"
+    },
+    {
+      "id": "aud-000083",
+      "entity": "contacts",
+      "record_id": "ERP-C-0039",
+      "field": "status",
+      "old": "Active",
+      "new": "On Hold",
+      "actor": "u.esther",
+      "at": "2026-11-08T04:00:00.000Z"
+    },
+    {
+      "id": "aud-000084",
+      "entity": "contacts",
+      "record_id": "ERP-C-0079",
+      "field": "phone",
+      "old": "555-020-1079",
+      "new": "555-020-4086",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T04:00:03.000Z"
+    },
+    {
+      "id": "aud-000085",
+      "entity": "contacts",
+      "record_id": "ERP-C-0209",
+      "field": "phone",
+      "old": "555-020-1209",
+      "new": "555-020-8281",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T05:02:48.000Z"
+    },
+    {
+      "id": "aud-000086",
+      "entity": "accounts",
+      "record_id": "ERP-A-0022",
+      "field": "phone",
+      "old": "555-010-1022",
+      "new": "555-010-9720",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T06:00:00.000Z"
+    },
+    {
+      "id": "aud-000087",
+      "entity": "contacts",
+      "record_id": "ERP-C-0088",
+      "field": "email",
+      "old": "yusuf.reyes@meridian-holdings-ltd.example",
+      "new": "femi.sato9@mail.example",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T06:00:00.000Z"
+    },
+    {
+      "id": "aud-000088",
+      "entity": "contacts",
+      "record_id": "ERP-C-0073",
+      "field": "phone",
+      "old": "555-020-1073",
+      "new": "555-020-3283",
+      "actor": "u.esther",
+      "at": "2026-11-08T06:00:01.000Z"
+    },
+    {
+      "id": "aud-000089",
+      "entity": "accounts",
+      "record_id": "ERP-A-0117",
+      "field": "name",
+      "old": "Marigold Textiles Co",
+      "new": "Juniper Analytics Inc",
+      "actor": "u.chen",
+      "at": "2026-11-08T07:00:00.000Z"
+    },
+    {
+      "id": "aud-000090",
+      "entity": "accounts",
+      "record_id": "ERP-A-0012",
+      "field": "industry",
+      "old": "Energy",
+      "new": "Manufacturing",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T07:13:20.000Z"
+    },
+    {
+      "id": "aud-000091",
+      "entity": "accounts",
+      "record_id": "ERP-A-0009",
+      "field": "name",
+      "old": "Cobalt Learning Co",
+      "new": "Cobalt Learning Co  ",
+      "actor": "u.amara",
+      "at": "2026-11-08T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000092",
+      "entity": "contacts",
+      "record_id": "ERP-C-0170",
+      "field": "title",
+      "old": "Operations Manager",
+      "new": "Vice President of Manufacturing Operations and Supply Planning",
+      "actor": "u.esther",
+      "at": "2026-11-08T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000093",
+      "entity": "contacts",
+      "record_id": "ERP-C-0143",
+      "field": "status",
+      "old": "On Hold",
+      "new": "Active",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000094",
+      "entity": "contacts",
+      "record_id": "ERP-C-0171",
+      "field": "mailing_country",
+      "old": "Canada",
+      "new": "Germany",
+      "actor": "u.farid",
+      "at": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "id": "aud-000095",
+      "entity": "accounts",
+      "record_id": "ERP-A-0048",
+      "field": "name",
+      "old": "Juniper Capital LLC",
+      "new": "Redwood Outfitters Inc",
+      "actor": "u.chen",
+      "at": "2026-11-08T13:00:00.000Z"
+    },
+    {
+      "id": "aud-000096",
+      "entity": "contacts",
+      "record_id": "ERP-C-0003",
+      "field": "department",
+      "old": "Finance",
+      "new": "Operations",
+      "actor": "u.bela",
+      "at": "2026-11-08T13:00:00.000Z"
+    },
+    {
+      "id": "aud-000097",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "email",
+      "old": null,
+      "new": "uma.jensen@keystone-analytics-inc.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000098",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "phone",
+      "old": null,
+      "new": "555-020-1030",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000099",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "title",
+      "old": null,
+      "new": "Operations Manager",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000100",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "mailing_country",
+      "old": null,
+      "new": "United States",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000101",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "department",
+      "old": null,
+      "new": "Logistics",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000102",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "status",
+      "old": null,
+      "new": "Active",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000103",
+      "entity": "contacts",
+      "record_id": "ERP-C-0030",
+      "field": "source",
+      "old": null,
+      "new": "Trade Show",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-08T15:00:45.000Z"
+    },
+    {
+      "id": "aud-000104",
+      "entity": "contacts",
+      "record_id": "ERP-C-0139",
+      "field": "status",
+      "old": "Inactive",
+      "new": "Active",
+      "actor": "u.esther",
+      "at": "2026-11-08T16:00:00.000Z"
+    },
+    {
+      "id": "aud-000105",
+      "entity": "accounts",
+      "record_id": "ERP-A-0066",
+      "field": "industry",
+      "old": "Healthcare",
+      "new": "Manufacturing",
+      "actor": "u.esther",
+      "at": "2026-11-08T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000106",
+      "entity": "contacts",
+      "record_id": "ERP-C-0176",
+      "field": "email",
+      "old": "wren.eriksen@beacon-robotics-co.example",
+      "new": "rosa.ueda71@mail.example",
+      "actor": "u.chen",
+      "at": "2026-11-08T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000107",
+      "entity": "contacts",
+      "record_id": "ERP-C-0179",
+      "field": "department",
+      "old": "Finance",
+      "new": "Procurement",
+      "actor": "u.esther",
+      "at": "2026-11-08T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000108",
+      "entity": "accounts",
+      "record_id": "ERP-A-0091",
+      "field": "phone",
+      "old": "555-010-1091",
+      "new": "555-010-9116",
+      "actor": "u.amara",
+      "at": "2026-11-08T17:59:58.000Z"
+    },
+    {
+      "id": "aud-000109",
+      "entity": "contacts",
+      "record_id": "ERP-C-0203",
+      "field": "department",
+      "old": "Finance",
+      "new": "Information Technology",
+      "actor": "u.farid",
+      "at": "2026-11-08T20:00:00.000Z"
+    },
+    {
+      "id": "aud-000110",
+      "entity": "accounts",
+      "record_id": "ERP-A-0124",
+      "field": "phone",
+      "old": "555-010-1124",
+      "new": "(555) 010-1124",
+      "actor": "u.farid",
+      "at": "2026-11-08T22:00:00.000Z"
+    },
+    {
+      "id": "aud-000111",
+      "entity": "accounts",
+      "record_id": "ERP-A-0142",
+      "field": "account_number",
+      "old": "ACC-10142",
+      "new": "ACC-29203",
+      "actor": "u.dmitri",
+      "at": "2026-11-08T23:00:00.000Z"
+    },
+    {
+      "id": "aud-000112",
+      "entity": "accounts",
+      "record_id": "ERP-A-0034",
+      "field": "name",
+      "old": "Lantern Studios Partners",
+      "new": "Granite Farms Co",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T00:06:09.000Z"
+    },
+    {
+      "id": "aud-000113",
+      "entity": "accounts",
+      "record_id": "ERP-A-0116",
+      "field": "website",
+      "old": "https://www.westbrook-optics-group.example",
+      "new": "https://www.cobalt-energy.example",
+      "actor": "u.farid",
+      "at": "2026-11-09T01:00:00.000Z"
+    },
+    {
+      "id": "aud-000114",
+      "entity": "accounts",
+      "record_id": "ERP-A-0053",
+      "field": "industry",
+      "old": "Finance",
+      "new": "Manufacturing",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T04:13:22.000Z"
+    },
+    {
+      "id": "aud-000115",
+      "entity": "contacts",
+      "record_id": "ERP-C-0202",
+      "field": "mailing_country",
+      "old": "India",
+      "new": "United Kingdom",
+      "actor": "u.bela",
+      "at": "2026-11-09T05:00:00.000Z"
+    },
+    {
+      "id": "aud-000116",
+      "entity": "contacts",
+      "record_id": "ERP-C-0218",
+      "field": "title",
+      "old": "Logistics Coordinator",
+      "new": "IT Administrator",
+      "actor": "u.esther",
+      "at": "2026-11-09T05:00:00.000Z"
+    },
+    {
+      "id": "aud-000117",
+      "entity": "contacts",
+      "record_id": "ERP-C-0026",
+      "field": "department",
+      "old": "Finance Shared Services and Statutory Reporting Centre",
+      "new": "Finance Shared Services And Statutory Re",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T06:00:00.000Z"
+    },
+    {
+      "id": "aud-000118",
+      "entity": "accounts",
+      "record_id": "ERP-A-0024",
+      "field": "phone",
+      "old": "555-010-1024",
+      "new": "555-010-9208",
+      "actor": "u.amara",
+      "at": "2026-11-09T06:59:56.000Z"
+    },
+    {
+      "id": "aud-000119",
+      "entity": "contacts",
+      "record_id": "ERP-C-0208",
+      "field": "email",
+      "old": "aarav.okafor@ironwood-freight-ltd.example",
+      "new": "Aarav.okafor@ironwood-freight-ltd.example",
+      "actor": "u.dmitri",
+      "at": "2026-11-09T07:00:00.000Z"
+    },
+    {
+      "id": "aud-000120",
+      "entity": "accounts",
+      "record_id": "ERP-A-0003",
+      "field": "phone",
+      "old": "555-010-1003",
+      "new": "(555) 010-1003",
+      "actor": "u.esther",
+      "at": "2026-11-09T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000121",
+      "entity": "accounts",
+      "record_id": "ERP-A-0052",
+      "field": "billing_country",
+      "old": "India",
+      "new": "Australia",
+      "actor": "u.esther",
+      "at": "2026-11-09T08:00:00.000Z"
+    },
+    {
+      "id": "aud-000122",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "name",
+      "old": null,
+      "new": "Cobalt Learning Ltd",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000123",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "phone",
+      "old": null,
+      "new": "555-010-1029",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000124",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "industry",
+      "old": null,
+      "new": "Finance",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000125",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "billing_country",
+      "old": null,
+      "new": "Australia",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000126",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "account_number",
+      "old": null,
+      "new": "ACC-10029",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000127",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "website",
+      "old": null,
+      "new": "https://www.cobalt-learning-ltd.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000128",
+      "entity": "accounts",
+      "record_id": "ERP-A-0029",
+      "field": "rating",
+      "old": null,
+      "new": "Cold",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T08:00:45.000Z"
+    },
+    {
+      "id": "aud-000129",
+      "entity": "accounts",
+      "record_id": "ERP-A-0097",
+      "field": "name",
+      "old": "Marigold Textiles Inc",
+      "new": "Marigold Textiles Inc  ",
+      "actor": "u.chen",
+      "at": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000130",
+      "entity": "contacts",
+      "record_id": "ERP-C-0125",
+      "field": "department",
+      "old": "Procurement and Supplier Relationship Management Office",
+      "new": "Procurement And Supplier Relationship Ma",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "id": "aud-000131",
+      "entity": "contacts",
+      "record_id": "ERP-C-0212",
+      "field": "department",
+      "old": "Customer Success and Onboarding Operations Division Northeast",
+      "new": "Customer Success And Onboarding Operatio",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T10:00:00.000Z"
+    },
+    {
+      "id": "aud-000132",
+      "entity": "accounts",
+      "record_id": "ERP-A-0131",
+      "field": "website",
+      "old": "https://www.keystone-analytics-ltd.example",
+      "new": "https://www.meridian-brewing.example",
+      "actor": "u.amara",
+      "at": "2026-11-09T10:00:31.000Z"
+    },
+    {
+      "id": "aud-000133",
+      "entity": "accounts",
+      "record_id": "ERP-A-0131",
+      "field": "name",
+      "old": "Keystone Analytics Ltd",
+      "new": "Cobalt Learning LLC",
+      "actor": "u.farid",
+      "at": "2026-11-09T11:00:00.000Z"
+    },
+    {
+      "id": "aud-000134",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "email",
+      "old": null,
+      "new": "keiko.chaudhry@ironwood-freight-ltd.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000135",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "phone",
+      "old": null,
+      "new": "555-020-1028",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000136",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "title",
+      "old": null,
+      "new": "Logistics Coordinator",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000137",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "mailing_country",
+      "old": null,
+      "new": "India",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000138",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "department",
+      "old": null,
+      "new": "Customer Success",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000139",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "status",
+      "old": null,
+      "new": "Inactive",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000140",
+      "entity": "contacts",
+      "record_id": "ERP-C-0028",
+      "field": "source",
+      "old": null,
+      "new": "Web",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T11:00:45.000Z"
+    },
+    {
+      "id": "aud-000141",
+      "entity": "contacts",
+      "record_id": "ERP-C-0166",
+      "field": "department",
+      "old": "Engineering Platform Reliability and Observability Group",
+      "new": "Engineering Platform Reliability And Obs",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "id": "aud-000142",
+      "entity": "accounts",
+      "record_id": "ERP-A-0055",
+      "field": "phone",
+      "old": "555-010-1055",
+      "new": "555-010-2242",
+      "actor": "u.bela",
+      "at": "2026-11-09T14:00:00.000Z"
+    },
+    {
+      "id": "aud-000143",
+      "entity": "accounts",
+      "record_id": "ERP-A-0021",
+      "field": "account_number",
+      "old": "ACC-10021",
+      "new": "ACC-21371",
+      "actor": "u.amara",
+      "at": "2026-11-09T15:00:00.000Z"
+    },
+    {
+      "id": "aud-000144",
+      "entity": "contacts",
+      "record_id": "ERP-C-0116",
+      "field": "phone",
+      "old": "555-020-1116",
+      "new": "555-020-5382",
+      "actor": "u.amara",
+      "at": "2026-11-09T15:00:00.000Z"
+    },
+    {
+      "id": "aud-000145",
+      "entity": "contacts",
+      "record_id": "ERP-C-0186",
+      "field": "phone",
+      "old": "555-020-1186",
+      "new": "555-020-6918",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T15:07:01.000Z"
+    },
+    {
+      "id": "aud-000146",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "name",
+      "old": null,
+      "new": "Ironwood Freight Inc",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000147",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "phone",
+      "old": null,
+      "new": "555-010-1025",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000148",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "industry",
+      "old": null,
+      "new": "Manufacturing",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000149",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "billing_country",
+      "old": null,
+      "new": "United Kingdom",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000150",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "account_number",
+      "old": null,
+      "new": "ACC-10025",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000151",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "website",
+      "old": null,
+      "new": "https://www.ironwood-freight-inc.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000152",
+      "entity": "accounts",
+      "record_id": "ERP-A-0025",
+      "field": "rating",
+      "old": null,
+      "new": "Warm",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T16:00:45.000Z"
+    },
+    {
+      "id": "aud-000153",
+      "entity": "accounts",
+      "record_id": "ERP-A-0001",
+      "field": "account_number",
+      "old": "ACC-10001",
+      "new": "ACC-26877",
+      "actor": "u.chen",
+      "at": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000154",
+      "entity": "accounts",
+      "record_id": "ERP-A-0063",
+      "field": "account_number",
+      "old": "ACC-10063",
+      "new": "ACC-23711",
+      "actor": "u.dmitri",
+      "at": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000155",
+      "entity": "accounts",
+      "record_id": "ERP-A-0141",
+      "field": "account_number",
+      "old": "ACC-10141",
+      "new": "ACC-29802",
+      "actor": "u.bela",
+      "at": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000156",
+      "entity": "contacts",
+      "record_id": "ERP-C-0019",
+      "field": "status",
+      "old": "Inactive",
+      "new": "Active",
+      "actor": "u.esther",
+      "at": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "id": "aud-000157",
+      "entity": "accounts",
+      "record_id": "ERP-A-0104",
+      "field": "name",
+      "old": "Redwood Energy Group",
+      "new": "Keystone Studios Group",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T17:06:13.000Z"
+    },
+    {
+      "id": "aud-000158",
+      "entity": "accounts",
+      "record_id": "ERP-A-0123",
+      "field": "rating",
+      "old": "Hot",
+      "new": "Warm",
+      "actor": "u.farid",
+      "at": "2026-11-09T20:00:00.000Z"
+    },
+    {
+      "id": "aud-000159",
+      "entity": "contacts",
+      "record_id": "ERP-C-0165",
+      "field": "mailing_country",
+      "old": "Canada",
+      "new": "Germany",
+      "actor": "u.amara",
+      "at": "2026-11-09T20:00:00.000Z"
+    },
+    {
+      "id": "aud-000160",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "email",
+      "old": null,
+      "new": "quinn.rahman@vantage-medical-inc.example",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000161",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "phone",
+      "old": null,
+      "new": "555-020-1024",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000162",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "title",
+      "old": null,
+      "new": "Finance Analyst",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000163",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "mailing_country",
+      "old": null,
+      "new": "United States",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000164",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "department",
+      "old": null,
+      "new": "Operations",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000165",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "status",
+      "old": null,
+      "new": "Active",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000166",
+      "entity": "contacts",
+      "record_id": "ERP-C-0024",
+      "field": "source",
+      "old": null,
+      "new": "Web",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:00:45.000Z"
+    },
+    {
+      "id": "aud-000167",
+      "entity": "contacts",
+      "record_id": "ERP-C-0020",
+      "field": "phone",
+      "old": "555-020-1020",
+      "new": "555-020-8816",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:10:59.000Z"
+    },
+    {
+      "id": "aud-000168",
+      "entity": "accounts",
+      "record_id": "ERP-A-0065",
+      "field": "industry",
+      "old": "Manufacturing",
+      "new": "Healthcare",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T21:13:28.000Z"
+    },
+    {
+      "id": "aud-000169",
+      "entity": "contacts",
+      "record_id": "ERP-C-0003",
+      "field": "phone",
+      "old": "555-020-1003",
+      "new": "555-020-9187",
+      "actor": "svc-sync-bridge",
+      "at": "2026-11-09T22:14:26.000Z"
+    }
+  ]
+}

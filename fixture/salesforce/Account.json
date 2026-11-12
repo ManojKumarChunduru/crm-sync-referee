@@ -1,0 +1,2374 @@
+{
+  "totalSize": 148,
+  "done": true,
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000001AAA"
+      },
+      "Id": "001Kd0000000001AAA",
+      "Name": "Pioneer Dental Inc",
+      "Phone": "555-010-1001",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-26877",
+      "Website": "https://www.pioneer-dental-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-02T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T17:13:31.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000002AAA"
+      },
+      "Id": "001Kd0000000002AAA",
+      "Name": "Granite Robotics Partners",
+      "Phone": "555-010-1002",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10002",
+      "Website": "https://www.clearwater-foods-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-15T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000003AAA"
+      },
+      "Id": "001Kd0000000003AAA",
+      "Name": "Harbor Marine Co",
+      "Phone": "555-010-1003",
+      "Industry": "Healthcare",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10003",
+      "Website": "https://www.harbor-marine-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-12-22T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T23:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000004AAA"
+      },
+      "Id": "001Kd0000000004AAA",
+      "Name": "Redwood Energy Partners",
+      "Phone": "555-010-1004",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10004",
+      "Website": "https://www.redwood-energy-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-03T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-03T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000005AAA"
+      },
+      "Id": "001Kd0000000005AAA",
+      "Name": "Ironwood Freight Ltd",
+      "Phone": "555-010-1005",
+      "Industry": "Finance",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10005",
+      "Website": "https://www.ironwood-freight-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-05-16T00:00:00.000Z",
+      "LastModifiedDate": "2026-05-16T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000006AAA"
+      },
+      "Id": "001Kd0000000006AAA",
+      "Name": "Summit Systems LLC",
+      "Phone": "+1 555 010 1006",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10006",
+      "Website": "https://www.summit-systems-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-13T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T13:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000007AAA"
+      },
+      "Id": "001Kd0000000007AAA",
+      "Name": "Silverline Brewing Inc",
+      "Phone": "555-010-1007",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10007",
+      "Website": "https://www.silverline-brewing-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-07-19T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-19T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000008AAA"
+      },
+      "Id": "001Kd0000000008AAA",
+      "Name": "Juniper Capital Group",
+      "Phone": "555-010-1008",
+      "Industry": "Technology",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10008",
+      "Website": "https://www.juniper-capital-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000009AAA"
+      },
+      "Id": "001Kd0000000009AAA",
+      "Name": "Cobalt Learning Co",
+      "Phone": "555-010-1009",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10009",
+      "Website": "https://www.cobalt-learning-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-11-03T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-03T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000010AAA"
+      },
+      "Id": "001Kd0000000010AAA",
+      "Name": "Tidewater Outfitters Partners",
+      "Phone": "555-010-1010",
+      "Industry": "Healthcare",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10010",
+      "Website": "https://www.tidewater-outfitters-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-20T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-20T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000011AAA"
+      },
+      "Id": "001Kd0000000011AAA",
+      "Name": "Keystone Analytics Ltd",
+      "Phone": "555-010-1011",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10011",
+      "Website": "https://www.keystone-analytics-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-07-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000012AAA"
+      },
+      "Id": "001Kd0000000012AAA",
+      "Name": "Summit Analytics Partners",
+      "Phone": "555-010-1012",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10012",
+      "Website": "https://www.granite-farms-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-02-22T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T07:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000013AAA"
+      },
+      "Id": "001Kd0000000013AAA",
+      "Name": "Vantage Medical Inc",
+      "Phone": "555-010-1013",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10013",
+      "Website": "https://www.vantage-medical-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-26T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-26T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000014AAA"
+      },
+      "Id": "001Kd0000000014AAA",
+      "Name": "Silverline Freight Inc",
+      "Phone": "555-010-1014",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10014",
+      "Website": "https://www.lantern-studios-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-25T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T18:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000015AAA"
+      },
+      "Id": "001Kd0000000015AAA",
+      "Name": "Meridian Holdings Co",
+      "Phone": "555-010-1015",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10015",
+      "Website": "https://www.meridian-holdings-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-12-22T00:00:00.000Z",
+      "LastModifiedDate": "2025-12-22T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000016AAA"
+      },
+      "Id": "001Kd0000000016AAA",
+      "Name": "Westbrook Optics Partners",
+      "Phone": "555-010-1016",
+      "Industry": "Technology",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10016",
+      "Website": "https://www.westbrook-optics-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000017AAA"
+      },
+      "Id": "001Kd0000000017AAA",
+      "Name": "Marigold Textiles Ltd",
+      "Phone": "555-010-1017",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10017",
+      "Website": "https://www.marigold-textiles-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-28T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-28T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000018AAA"
+      },
+      "Id": "001Kd0000000018AAA",
+      "Name": "Larkspur Metals LLC",
+      "Phone": "555-010-1018",
+      "Industry": "Healthcare",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10018",
+      "Website": "https://www.larkspur-metals-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-07-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000019AAA"
+      },
+      "Id": "001Kd0000000019AAA",
+      "Name": "Beacon Robotics Inc",
+      "Phone": "555-010-1019",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10019",
+      "Website": "https://www.beacon-robotics-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-03-24T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-24T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000020AAA"
+      },
+      "Id": "001Kd0000000020AAA",
+      "Name": "Northwind Logistics Group",
+      "Phone": "555-010-1020",
+      "Industry": "Energy",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10020",
+      "Website": "https://www.northwind-logistics-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-03-03T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-03T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000021AAA"
+      },
+      "Id": "001Kd0000000021AAA",
+      "Name": "Pioneer Dental Co",
+      "Phone": "555-010-1021",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10021",
+      "Website": "https://www.pioneer-dental-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-12-26T00:00:00.000Z",
+      "LastModifiedDate": "2025-12-26T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000022AAA"
+      },
+      "Id": "001Kd0000000022AAA",
+      "Name": "Clearwater Foods Partners",
+      "Phone": "555-010-8368",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10022",
+      "Website": "https://www.clearwater-foods-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-09-02T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T22:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000023AAA"
+      },
+      "Id": "001Kd0000000023AAA",
+      "Name": "Harbor Marine Ltd",
+      "Phone": "555-010-1023",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10023",
+      "Website": "https://www.harbor-marine-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-11-07T08:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T08:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000024AAA"
+      },
+      "Id": "001Kd0000000024AAA",
+      "Name": "Redwood Energy LLC",
+      "Phone": "555-010-8122",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10024",
+      "Website": "https://www.redwood-energy-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-07-19T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T07:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000025AAA"
+      },
+      "Id": "001Kd0000000025AAA",
+      "Name": "Ironwood Freight Inc",
+      "Phone": "555-010-1025",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10025",
+      "Website": "https://www.ironwood-freight-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-11-09T16:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T16:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000026AAA"
+      },
+      "Id": "001Kd0000000026AAA",
+      "Name": "Harbor Brewing Co",
+      "Phone": "555-010-1026",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10026",
+      "Website": "https://www.summit-systems-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T07:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000027AAA"
+      },
+      "Id": "001Kd0000000027AAA",
+      "Name": "Silverline Brewing Co",
+      "Phone": "555-010-1027",
+      "Industry": "Retail",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10027",
+      "Website": "https://www.silverline-brewing-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-11-07T05:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T05:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000028AAA"
+      },
+      "Id": "001Kd0000000028AAA",
+      "Name": "Juniper Capital Partners",
+      "Phone": "555-010-1028",
+      "Industry": "Finance",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10028",
+      "Website": "https://www.juniper-capital-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T16:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000029AAA"
+      },
+      "Id": "001Kd0000000029AAA",
+      "Name": "Cobalt Learning Ltd",
+      "Phone": "555-010-1029",
+      "Industry": "Finance",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10029",
+      "Website": "https://www.cobalt-learning-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-11-09T08:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T08:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000030AAA"
+      },
+      "Id": "001Kd0000000030AAA",
+      "Name": "Tidewater Outfitters LLC",
+      "Phone": "555-010-1030",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10030",
+      "Website": "https://www.tidewater-outfitters-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-10T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000031AAA"
+      },
+      "Id": "001Kd0000000031AAA",
+      "Name": "Keystone Analytics Inc",
+      "Phone": "555-010-1031",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10031",
+      "Website": "https://www.keystone-analytics-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-02-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000032AAA"
+      },
+      "Id": "001Kd0000000032AAA",
+      "Name": "Westbrook Freight LLC",
+      "Phone": "555-010-1032",
+      "Industry": "Technology",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10032",
+      "Website": "https://www.granite-farms-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2025-11-08T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T14:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000033AAA"
+      },
+      "Id": "001Kd0000000033AAA",
+      "Name": "Vantage Medical Co",
+      "Phone": "555-010-1033",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10033",
+      "Website": "https://www.vantage-medical-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-02-22T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-22T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000034AAA"
+      },
+      "Id": "001Kd0000000034AAA",
+      "Name": "Granite Farms Co",
+      "Phone": "555-010-1034",
+      "Industry": "Healthcare",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10034",
+      "Website": "https://www.lantern-studios-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-01-03T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000035AAA"
+      },
+      "Id": "001Kd0000000035AAA",
+      "Name": "Meridian Holdings Ltd",
+      "Phone": "555-010-1035",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10035",
+      "Website": "https://www.meridian-holdings-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2025-11-10T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000036AAA"
+      },
+      "Id": "001Kd0000000036AAA",
+      "Name": "Westbrook Optics LLC",
+      "Phone": "555-010-1036",
+      "Industry": "Energy",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10036",
+      "Website": "https://www.westbrook-optics-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-02-18T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000037AAA"
+      },
+      "Id": "001Kd0000000037AAA",
+      "Name": "Marigold Textiles Inc",
+      "Phone": "555-010-1037",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10037",
+      "Website": "https://www.marigold-textiles-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-16T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-16T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000038AAA"
+      },
+      "Id": "001Kd0000000038AAA",
+      "Name": "Larkspur Metals Group",
+      "Phone": "555-010-1038",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10038",
+      "Website": "https://www.larkspur-metals-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-26T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000039AAA"
+      },
+      "Id": "001Kd0000000039AAA",
+      "Name": "Beacon Robotics Co",
+      "Phone": "555-010-1039",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-28950",
+      "Website": "https://www.beacon-robotics-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-06-13T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T09:12:28.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000040AAA"
+      },
+      "Id": "001Kd0000000040AAA",
+      "Name": "Northwind Logistics Partners",
+      "Phone": "555-010-1040",
+      "Industry": "Technology",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10040",
+      "Website": "https://www.northwind-logistics-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-16T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-16T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000041AAA"
+      },
+      "Id": "001Kd0000000041AAA",
+      "Name": "Pioneer Dental Ltd",
+      "Phone": "555-010-1041",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10041",
+      "Website": "https://www.pioneer-dental-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-23T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-23T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000042AAA"
+      },
+      "Id": "001Kd0000000042AAA",
+      "Name": "Clearwater Foods LLC",
+      "Phone": "555-010-1042",
+      "Industry": "Healthcare",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10042",
+      "Website": "https://www.clearwater-foods-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-23T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-23T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000043AAA"
+      },
+      "Id": "001Kd0000000043AAA",
+      "Name": "Harbor Marine Inc",
+      "Phone": "555-010-1043",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10043",
+      "Website": "https://www.harbor-marine-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-01-28T00:00:00.000Z",
+      "LastModifiedDate": "2026-10-31T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000044AAA"
+      },
+      "Id": "001Kd0000000044AAA",
+      "Name": "Redwood Energy Group",
+      "Phone": "555-010-1044",
+      "Industry": "Energy",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10044",
+      "Website": "https://www.redwood-energy-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-09-02T00:00:00.000Z",
+      "LastModifiedDate": "2026-09-02T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000045AAA"
+      },
+      "Id": "001Kd0000000045AAA",
+      "Name": "Ironwood Freight Co",
+      "Phone": "555-010-1045",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-25572",
+      "Website": "https://www.ironwood-freight-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-11-25T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T12:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000046AAA"
+      },
+      "Id": "001Kd0000000046AAA",
+      "Name": "Summit Systems Partners",
+      "Phone": "555-010-1046",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10046",
+      "Website": "https://www.summit-systems-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-01-29T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000047AAA"
+      },
+      "Id": "001Kd0000000047AAA",
+      "Name": "Silverline Brewing Ltd",
+      "Phone": "555-010-1047",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10047",
+      "Website": "https://www.silverline-brewing-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2025-10-15T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-15T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000048AAA"
+      },
+      "Id": "001Kd0000000048AAA",
+      "Name": "Juniper Capital LLC",
+      "Phone": "555-010-1048",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10048",
+      "Website": "https://www.juniper-capital-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-11-13T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-13T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000049AAA"
+      },
+      "Id": "001Kd0000000049AAA",
+      "Name": "Cobalt Learning Inc",
+      "Phone": "555-010-1049",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10049",
+      "Website": "https://www.cobalt-learning-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-01-30T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-30T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000050AAA"
+      },
+      "Id": "001Kd0000000050AAA",
+      "Name": "Tidewater Outfitters Group",
+      "Phone": "555-010-9385",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10050",
+      "Website": "https://www.tidewater-outfitters-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-07T16:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000051AAA"
+      },
+      "Id": "001Kd0000000051AAA",
+      "Name": "Keystone Analytics Co",
+      "Phone": "555-010-1051",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10051",
+      "Website": "https://www.keystone-analytics-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-10-25T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-25T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000052AAA"
+      },
+      "Id": "001Kd0000000052AAA",
+      "Name": "Granite Farms Partners",
+      "Phone": "555-010-1052",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10052",
+      "Website": "https://www.granite-farms-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-03-30T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000053AAA"
+      },
+      "Id": "001Kd0000000053AAA",
+      "Name": "Vantage Medical Ltd",
+      "Phone": "555-010-1053",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10053",
+      "Website": "https://www.vantage-medical-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-29T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T04:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000054AAA"
+      },
+      "Id": "001Kd0000000054AAA",
+      "Name": "Lantern Studios LLC",
+      "Phone": "555-010-1054",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10054",
+      "Website": "https://www.lantern-studios-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-14T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000055AAA"
+      },
+      "Id": "001Kd0000000055AAA",
+      "Name": "Meridian Holdings Inc",
+      "Phone": "555-010-5589",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10055",
+      "Website": "https://www.meridian-holdings-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-10-25T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T13:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000056AAA"
+      },
+      "Id": "001Kd0000000056AAA",
+      "Name": "Redwood Metals Co",
+      "Phone": "555-010-1056",
+      "Industry": "Technology",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10056",
+      "Website": "https://www.westbrook-optics-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-06T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T15:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000057AAA"
+      },
+      "Id": "001Kd0000000057AAA",
+      "Name": "Marigold Textiles Co",
+      "Phone": "555-010-1057",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10057",
+      "Website": "https://www.pioneer-holdings.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-12-13T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000058AAA"
+      },
+      "Id": "001Kd0000000058AAA",
+      "Name": "Larkspur Metals Partners",
+      "Phone": "555-010-1058",
+      "Industry": "Healthcare",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10058",
+      "Website": "https://www.larkspur-metals-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000059AAA"
+      },
+      "Id": "001Kd0000000059AAA",
+      "Name": "Beacon Robotics Ltd",
+      "Phone": "555-010-1059",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10059",
+      "Website": "https://www.beacon-robotics-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-31T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-31T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000060AAA"
+      },
+      "Id": "001Kd0000000060AAA",
+      "Name": "Northwind Logistics LLC",
+      "Phone": "555-010-1060",
+      "Industry": "Energy",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10060",
+      "Website": "https://www.northwind-logistics-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-25T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-25T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000061AAA"
+      },
+      "Id": "001Kd0000000061AAA",
+      "Name": "Pioneer Dental Inc",
+      "Phone": "555-010-1061",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10061",
+      "Website": "https://www.pioneer-dental-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-08-10T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000062AAA"
+      },
+      "Id": "001Kd0000000062AAA",
+      "Name": "Clearwater Foods Group",
+      "Phone": "555-010-1062",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10062",
+      "Website": "https://www.clearwater-foods-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-09T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-09T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000063AAA"
+      },
+      "Id": "001Kd0000000063AAA",
+      "Name": "Harbor Marine Co",
+      "Phone": "555-010-1063",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-23711",
+      "Website": "https://www.harbor-marine-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-11T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T17:05:53.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000064AAA"
+      },
+      "Id": "001Kd0000000064AAA",
+      "Name": "Redwood Energy Partners",
+      "Phone": "555-010-1064",
+      "Industry": "Technology",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10064",
+      "Website": "https://www.redwood-energy-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-12-27T00:00:00.000Z",
+      "LastModifiedDate": "2025-12-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000065AAA"
+      },
+      "Id": "001Kd0000000065AAA",
+      "Name": "Ironwood Freight Ltd",
+      "Phone": "555-010-1065",
+      "Industry": "Healthcare",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10065",
+      "Website": "https://www.ironwood-freight-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-28T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T21:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000066AAA"
+      },
+      "Id": "001Kd0000000066AAA",
+      "Name": "Summit Systems LLC",
+      "Phone": "555-010-1066",
+      "Industry": "Healthcare",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10066",
+      "Website": "https://www.summit-systems-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-11-04T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-04T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000067AAA"
+      },
+      "Id": "001Kd0000000067AAA",
+      "Name": "Silverline Brewing Inc",
+      "Phone": "555-010-1067",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10067",
+      "Website": "https://www.silverline-brewing-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-10-13T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-13T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000068AAA"
+      },
+      "Id": "001Kd0000000068AAA",
+      "Name": "Juniper Capital Group",
+      "Phone": "555-010-1068",
+      "Industry": "Energy",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10068",
+      "Website": "https://www.juniper-capital-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-15T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000069AAA"
+      },
+      "Id": "001Kd0000000069AAA",
+      "Name": "Cobalt Learning Co",
+      "Phone": "555-010-1069",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10069",
+      "Website": "https://www.cobalt-learning-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-08T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000070AAA"
+      },
+      "Id": "001Kd0000000070AAA",
+      "Name": "Tidewater Outfitters Partners",
+      "Phone": "555-010-1070",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10070",
+      "Website": "https://www.tidewater-outfitters-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-05-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-05-12T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000071AAA"
+      },
+      "Id": "001Kd0000000071AAA",
+      "Name": "Keystone Analytics Ltd",
+      "Phone": "555-010-1071",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10071",
+      "Website": "https://www.keystone-analytics-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-31T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-31T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000072AAA"
+      },
+      "Id": "001Kd0000000072AAA",
+      "Name": "Granite Farms LLC",
+      "Phone": "555-010-1072",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10072",
+      "Website": "https://www.granite-farms-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-24T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-24T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000073AAA"
+      },
+      "Id": "001Kd0000000073AAA",
+      "Name": "Vantage Medical Inc",
+      "Phone": "555-010-1073",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10073",
+      "Website": "https://www.vantage-medical-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-05-24T00:00:00.000Z",
+      "LastModifiedDate": "2026-05-24T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000074AAA"
+      },
+      "Id": "001Kd0000000074AAA",
+      "Name": "Lantern Studios Group",
+      "Phone": "555-010-1074",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10074",
+      "Website": "https://www.lantern-studios-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-18T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-18T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000075AAA"
+      },
+      "Id": "001Kd0000000075AAA",
+      "Name": "Meridian Holdings Co",
+      "Phone": "555-010-1075",
+      "Industry": "Retail",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10075",
+      "Website": "https://www.meridian-holdings-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-03-29T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-29T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000076AAA"
+      },
+      "Id": "001Kd0000000076AAA",
+      "Name": "Westbrook Optics Partners",
+      "Phone": "555-010-1076",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10076",
+      "Website": "https://www.westbrook-optics-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-01T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000077AAA"
+      },
+      "Id": "001Kd0000000077AAA",
+      "Name": "Marigold Textiles Ltd",
+      "Phone": "555-010-1077",
+      "Industry": "Finance",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10077",
+      "Website": "https://www.marigold-textiles-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000078AAA"
+      },
+      "Id": "001Kd0000000078AAA",
+      "Name": "Larkspur Metals LLC",
+      "Phone": "555-010-1078",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10078",
+      "Website": "https://www.larkspur-metals-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-10-29T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-29T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000079AAA"
+      },
+      "Id": "001Kd0000000079AAA",
+      "Name": "Beacon Robotics Inc",
+      "Phone": "555-010-1079",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10079",
+      "Website": "https://www.beacon-robotics-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-26T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-26T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000080AAA"
+      },
+      "Id": "001Kd0000000080AAA",
+      "Name": "Northwind Logistics Group",
+      "Phone": "555-010-1080",
+      "Industry": "Technology",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10080",
+      "Website": "https://www.northwind-logistics-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-18T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-18T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000081AAA"
+      },
+      "Id": "001Kd0000000081AAA",
+      "Name": "Pioneer Dental Co",
+      "Phone": "555-010-1081",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-29463",
+      "Website": "https://www.pioneer-dental-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-11-06T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T12:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000082AAA"
+      },
+      "Id": "001Kd0000000082AAA",
+      "Name": "Beacon Textiles Partners",
+      "Phone": "555-010-1082",
+      "Industry": "Healthcare",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10082",
+      "Website": "https://www.clearwater-foods-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-03-28T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000083AAA"
+      },
+      "Id": "001Kd0000000083AAA",
+      "Name": "Harbor Marine Ltd",
+      "Phone": "555-010-1083",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10083",
+      "Website": "https://www.harbor-marine-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-03-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000084AAA"
+      },
+      "Id": "001Kd0000000084AAA",
+      "Name": "Redwood Energy LLC",
+      "Phone": "555-010-1084",
+      "Industry": "Energy",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10084",
+      "Website": "https://www.redwood-energy-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-01T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000085AAA"
+      },
+      "Id": "001Kd0000000085AAA",
+      "Name": "Ironwood Freight Inc",
+      "Phone": "555-010-1085",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10085",
+      "Website": "https://www.ironwood-freight-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-01T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-01T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000086AAA"
+      },
+      "Id": "001Kd0000000086AAA",
+      "Name": "Summit Systems Group",
+      "Phone": "555-010-1086",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10086",
+      "Website": "https://www.summit-systems-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-21T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-21T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000087AAA"
+      },
+      "Id": "001Kd0000000087AAA",
+      "Name": "Silverline Brewing Co",
+      "Phone": "555-010-1087",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10087",
+      "Website": "https://www.silverline-brewing-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-06-05T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-05T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000088AAA"
+      },
+      "Id": "001Kd0000000088AAA",
+      "Name": "Juniper Capital Partners",
+      "Phone": "555-010-1088",
+      "Industry": "Technology",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10088",
+      "Website": "https://www.juniper-capital-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-11-15T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-15T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000089AAA"
+      },
+      "Id": "001Kd0000000089AAA",
+      "Name": "Cobalt Learning Ltd",
+      "Phone": "555-010-9708",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10089",
+      "Website": "https://www.cobalt-learning-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-02T00:00:00.000Z",
+      "LastModifiedDate": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000090AAA"
+      },
+      "Id": "001Kd0000000090AAA",
+      "Name": "Tidewater Outfitters LLC",
+      "Phone": "555-010-1090",
+      "Industry": "Healthcare",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10090",
+      "Website": "https://www.tidewater-outfitters-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-10-23T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-23T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000091AAA"
+      },
+      "Id": "001Kd0000000091AAA",
+      "Name": "Keystone Analytics Inc",
+      "Phone": "555-010-3861",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10091",
+      "Website": "https://www.keystone-analytics-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-06-01T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T18:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000092AAA"
+      },
+      "Id": "001Kd0000000092AAA",
+      "Name": "Cobalt Analytics Co",
+      "Phone": "+1 555 010 1092",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10092",
+      "Website": "https://www.granite-farms-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T05:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000093AAA"
+      },
+      "Id": "001Kd0000000093AAA",
+      "Name": "Vantage Medical Co",
+      "Phone": "555-010-1093",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10093",
+      "Website": "https://www.vantage-medical-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-06-20T00:00:00.000Z",
+      "LastModifiedDate": "2026-06-20T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000094AAA"
+      },
+      "Id": "001Kd0000000094AAA",
+      "Name": "Lantern Studios Partners",
+      "Phone": "555-010-1094",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10094",
+      "Website": "https://www.lantern-studios-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-15T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-15T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000095AAA"
+      },
+      "Id": "001Kd0000000095AAA",
+      "Name": "Meridian Holdings Ltd",
+      "Phone": "555-010-1095",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10095",
+      "Website": "https://www.meridian-holdings-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-11T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-11T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000096AAA"
+      },
+      "Id": "001Kd0000000096AAA",
+      "Name": "Westbrook Optics LLC",
+      "Phone": "555-010-4589",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10096",
+      "Website": "https://www.harbor-metals.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-06-29T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T21:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000097AAA"
+      },
+      "Id": "001Kd0000000097AAA",
+      "Name": "Marigold Textiles Inc",
+      "Phone": "555-010-1097",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10097",
+      "Website": "https://www.marigold-textiles-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-03-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000098AAA"
+      },
+      "Id": "001Kd0000000098AAA",
+      "Name": "Larkspur Metals Group",
+      "Phone": "555-010-1098",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10098",
+      "Website": "https://www.larkspur-metals-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-30T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-30T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000099AAA"
+      },
+      "Id": "001Kd0000000099AAA",
+      "Name": "Beacon Robotics Co",
+      "Phone": "555-010-1099",
+      "Industry": "Retail",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10099",
+      "Website": "https://www.beacon-robotics-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-07-20T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-20T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000100AAA"
+      },
+      "Id": "001Kd0000000100AAA",
+      "Name": "Northwind Logistics Partners",
+      "Phone": "555-010-1100",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10100",
+      "Website": "https://www.northwind-logistics-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-09-10T00:00:00.000Z",
+      "LastModifiedDate": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000101AAA"
+      },
+      "Id": "001Kd0000000101AAA",
+      "Name": "Pioneer Dental Ltd",
+      "Phone": "555-010-1101",
+      "Industry": "Finance",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10101",
+      "Website": "https://www.pioneer-dental-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-19T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-19T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000102AAA"
+      },
+      "Id": "001Kd0000000102AAA",
+      "Name": "Clearwater Foods LLC",
+      "Phone": "555-010-1102",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10102",
+      "Website": "https://www.clearwater-foods-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000103AAA"
+      },
+      "Id": "001Kd0000000103AAA",
+      "Name": "Marigold Studios Group",
+      "Phone": "555-010-1103",
+      "Industry": "Transportation",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10103",
+      "Website": "https://www.harbor-marine-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-07-09T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000104AAA"
+      },
+      "Id": "001Kd0000000104AAA",
+      "Name": "Keystone Studios Group",
+      "Phone": "555-010-2430",
+      "Industry": "Finance",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10104",
+      "Website": "https://www.redwood-energy-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-03-05T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000105AAA"
+      },
+      "Id": "001Kd0000000105AAA",
+      "Name": "Ironwood Freight Co",
+      "Phone": "555-010-1105",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10105",
+      "Website": "https://www.ironwood-freight-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-01T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000106AAA"
+      },
+      "Id": "001Kd0000000106AAA",
+      "Name": "Summit Systems Partners",
+      "Phone": "555-010-1106",
+      "Industry": "Healthcare",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10106",
+      "Website": "https://www.summit-systems-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-10-30T00:00:00.000Z",
+      "LastModifiedDate": "2026-10-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000107AAA"
+      },
+      "Id": "001Kd0000000107AAA",
+      "Name": "Silverline Brewing Ltd",
+      "Phone": "555-010-1107",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10107",
+      "Website": "https://www.silverline-brewing-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-03-21T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-21T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000108AAA"
+      },
+      "Id": "001Kd0000000108AAA",
+      "Name": "Juniper Capital LLC",
+      "Phone": "555-010-1108",
+      "Industry": "Energy",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10108",
+      "Website": "https://www.juniper-capital-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-26T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-26T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000109AAA"
+      },
+      "Id": "001Kd0000000109AAA",
+      "Name": "Cobalt Learning Inc",
+      "Phone": "555-010-1109",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10109",
+      "Website": "https://www.cobalt-learning-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-13T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000110AAA"
+      },
+      "Id": "001Kd0000000110AAA",
+      "Name": "Tidewater Outfitters Group",
+      "Phone": "555-010-1110",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10110",
+      "Website": "https://www.tidewater-outfitters-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2025-11-15T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-15T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000111AAA"
+      },
+      "Id": "001Kd0000000111AAA",
+      "Name": "Keystone Analytics Co",
+      "Phone": "555-010-1111",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10111",
+      "Website": "https://www.granite-studios.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-21T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T02:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000112AAA"
+      },
+      "Id": "001Kd0000000112AAA",
+      "Name": "Granite Farms Partners",
+      "Phone": "555-010-1112",
+      "Industry": "Manufacturing",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10112",
+      "Website": "https://www.granite-farms-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-12-04T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T12:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000113AAA"
+      },
+      "Id": "001Kd0000000113AAA",
+      "Name": "Vantage Medical Ltd",
+      "Phone": "555-010-1113",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10113",
+      "Website": "https://www.vantage-medical-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-08-28T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-28T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000114AAA"
+      },
+      "Id": "001Kd0000000114AAA",
+      "Name": "Lantern Studios LLC",
+      "Phone": "555-010-1114",
+      "Industry": "Healthcare",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10114",
+      "Website": "https://www.lantern-studios-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000115AAA"
+      },
+      "Id": "001Kd0000000115AAA",
+      "Name": "Meridian Holdings Inc",
+      "Phone": "555-010-1115",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10115",
+      "Website": "https://www.meridian-holdings-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-03-18T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000116AAA"
+      },
+      "Id": "001Kd0000000116AAA",
+      "Name": "Westbrook Optics Group",
+      "Phone": "555-010-1116",
+      "Industry": "Finance",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10116",
+      "Website": "https://www.clearwater-robotics.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-30T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T17:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000117AAA"
+      },
+      "Id": "001Kd0000000117AAA",
+      "Name": "Marigold Textiles Co",
+      "Phone": "555-010-1117",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10117",
+      "Website": "https://www.marigold-textiles-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-10-08T00:00:00.000Z",
+      "LastModifiedDate": "2025-10-08T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000118AAA"
+      },
+      "Id": "001Kd0000000118AAA",
+      "Name": "Larkspur Metals Partners",
+      "Phone": "555-010-1118",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10118",
+      "Website": "https://www.larkspur-metals-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-11-11T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-11T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000119AAA"
+      },
+      "Id": "001Kd0000000119AAA",
+      "Name": "Beacon Robotics Ltd",
+      "Phone": "555-010-1119",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10119",
+      "Website": "https://www.beacon-robotics-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-07-21T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-21T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000120AAA"
+      },
+      "Id": "001Kd0000000120AAA",
+      "Name": "Northwind Logistics LLC",
+      "Phone": "555-010-1120",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10120",
+      "Website": "https://www.summit-foods.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000121AAA"
+      },
+      "Id": "001Kd0000000121AAA",
+      "Name": "Pioneer Dental Inc",
+      "Phone": "555-010-1121",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10121",
+      "Website": "https://www.pioneer-dental-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-07-25T00:00:00.000Z",
+      "LastModifiedDate": "2026-07-25T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000122AAA"
+      },
+      "Id": "001Kd0000000122AAA",
+      "Name": "Clearwater Foods Group",
+      "Phone": "555-010-1122",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10122",
+      "Website": "https://www.clearwater-foods-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-11T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-11T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000123AAA"
+      },
+      "Id": "001Kd0000000123AAA",
+      "Name": "Harbor Marine Co",
+      "Phone": "555-010-1123",
+      "Industry": "Retail",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10123",
+      "Website": "https://www.harbor-marine-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-01-17T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-17T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000124AAA"
+      },
+      "Id": "001Kd0000000124AAA",
+      "Name": "Redwood Energy Partners",
+      "Phone": "555-010-1124",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10124",
+      "Website": "https://www.redwood-energy-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-02-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000125AAA"
+      },
+      "Id": "001Kd0000000125AAA",
+      "Name": "Ironwood Freight Ltd",
+      "Phone": "555-010-1125",
+      "Industry": "Finance",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10125",
+      "Website": "https://www.ironwood-freight-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-12T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000126AAA"
+      },
+      "Id": "001Kd0000000126AAA",
+      "Name": "Summit Systems LLC",
+      "Phone": "555-010-1126",
+      "Industry": "Education",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10126",
+      "Website": "https://www.summit-systems-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000127AAA"
+      },
+      "Id": "001Kd0000000127AAA",
+      "Name": "Silverline Brewing Inc",
+      "Phone": "555-010-1127",
+      "Industry": "Transportation",
+      "BillingCountry": "GB",
+      "AccountNumber": "ACC-10127",
+      "Website": "https://www.silverline-brewing-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-07-05T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000128AAA"
+      },
+      "Id": "001Kd0000000128AAA",
+      "Name": "Juniper Capital Group",
+      "Phone": "555-010-1128",
+      "Industry": "Technology",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10128",
+      "Website": "https://www.juniper-capital-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-01-29T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-29T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000129AAA"
+      },
+      "Id": "001Kd0000000129AAA",
+      "Name": "Cobalt Learning Co",
+      "Phone": "555-010-1129",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10129",
+      "Website": "https://www.cobalt-learning-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-14T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-14T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000130AAA"
+      },
+      "Id": "001Kd0000000130AAA",
+      "Name": "Tidewater Outfitters Partners",
+      "Phone": "555-010-1130",
+      "Industry": "Healthcare",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10130",
+      "Website": "https://www.tidewater-outfitters-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-08T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-08T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000131AAA"
+      },
+      "Id": "001Kd0000000131AAA",
+      "Name": "Keystone Analytics Ltd",
+      "Phone": "555-010-1131",
+      "Industry": "Retail",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-28152",
+      "Website": "https://www.pioneer-energy.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-06-21T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T10:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000132AAA"
+      },
+      "Id": "001Kd0000000132AAA",
+      "Name": "Granite Farms LLC",
+      "Phone": "555-010-1132",
+      "Industry": "Energy",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10132",
+      "Website": "https://www.granite-farms-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2025-12-04T00:00:00.000Z",
+      "LastModifiedDate": "2025-12-04T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000133AAA"
+      },
+      "Id": "001Kd0000000133AAA",
+      "Name": "Vantage Medical Inc",
+      "Phone": "555-010-1133",
+      "Industry": "Finance",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10133",
+      "Website": "https://www.vantage-medical-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-12-29T00:00:00.000Z",
+      "LastModifiedDate": "2025-12-29T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000134AAA"
+      },
+      "Id": "001Kd0000000134AAA",
+      "Name": "Lantern Studios Group",
+      "Phone": "555-010-1134",
+      "Industry": "Education",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10134",
+      "Website": "https://www.lantern-studios-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-06T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-06T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000135AAA"
+      },
+      "Id": "001Kd0000000135AAA",
+      "Name": "Meridian Holdings Co",
+      "Phone": "555-010-1135",
+      "Industry": "Transportation",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10135",
+      "Website": "https://www.meridian-holdings-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-03-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000136AAA"
+      },
+      "Id": "001Kd0000000136AAA",
+      "Name": "Westbrook Optics Partners",
+      "Phone": "555-010-1136",
+      "Industry": "Technology",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10136",
+      "Website": "https://www.westbrook-optics-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-08-10T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000137AAA"
+      },
+      "Id": "001Kd0000000137AAA",
+      "Name": "Marigold Textiles Ltd",
+      "Phone": "555-010-8501",
+      "Industry": "Manufacturing",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10137",
+      "Website": "https://www.marigold-textiles-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-07-08T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T17:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000138AAA"
+      },
+      "Id": "001Kd0000000138AAA",
+      "Name": "Larkspur Metals LLC",
+      "Phone": "555-010-1138",
+      "Industry": "Healthcare",
+      "BillingCountry": "US",
+      "AccountNumber": "ACC-10138",
+      "Website": "https://www.larkspur-metals-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-06-12T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T02:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000139AAA"
+      },
+      "Id": "001Kd0000000139AAA",
+      "Name": "Beacon Robotics Inc",
+      "Phone": "555-010-1139",
+      "Industry": "Retail",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10139",
+      "Website": "https://www.beacon-robotics-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-05-27T00:00:00.000Z",
+      "LastModifiedDate": "2026-05-27T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000140AAA"
+      },
+      "Id": "001Kd0000000140AAA",
+      "Name": "Northwind Logistics Group",
+      "Phone": "555-010-1140",
+      "Industry": "Energy",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10140",
+      "Website": "https://www.northwind-logistics-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-02-09T00:00:00.000Z",
+      "LastModifiedDate": "2026-02-09T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000141AAA"
+      },
+      "Id": "001Kd0000000141AAA",
+      "Name": "Pioneer Dental Co",
+      "Phone": "555-010-1141",
+      "Industry": "Finance",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-29802",
+      "Website": "https://www.pioneer-dental-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-07-14T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T17:04:43.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000142AAA"
+      },
+      "Id": "001Kd0000000142AAA",
+      "Name": "Clearwater Foods Partners",
+      "Phone": "555-010-1142",
+      "Industry": "Education",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-29203",
+      "Website": "https://www.silverline-robotics.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-04-02T00:00:00.000Z",
+      "LastModifiedDate": "2026-11-09T23:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000143AAA"
+      },
+      "Id": "001Kd0000000143AAA",
+      "Name": "Harbor Marine Ltd",
+      "Phone": "555-010-1143",
+      "Industry": "Transportation",
+      "BillingCountry": "Australia",
+      "AccountNumber": "ACC-10143",
+      "Website": "https://www.harbor-marine-ltd.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-04-18T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-18T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000144AAA"
+      },
+      "Id": "001Kd0000000144AAA",
+      "Name": "Redwood Energy LLC",
+      "Phone": "555-010-1144",
+      "Industry": "Technology",
+      "BillingCountry": "United States",
+      "AccountNumber": "ACC-10144",
+      "Website": "https://www.redwood-energy-llc.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-04-20T00:00:00.000Z",
+      "LastModifiedDate": "2026-04-20T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000145AAA"
+      },
+      "Id": "001Kd0000000145AAA",
+      "Name": "Ironwood Freight Inc",
+      "Phone": "555-010-1145",
+      "Industry": "Manufacturing",
+      "BillingCountry": "United Kingdom",
+      "AccountNumber": "ACC-10145",
+      "Website": "https://www.ironwood-freight-inc.example",
+      "Rating": "Warm",
+      "CreatedDate": "2025-11-10T00:00:00.000Z",
+      "LastModifiedDate": "2025-11-10T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000146AAA"
+      },
+      "Id": "001Kd0000000146AAA",
+      "Name": "Summit Systems Group",
+      "Phone": "555-010-1146",
+      "Industry": "Healthcare",
+      "BillingCountry": "Germany",
+      "AccountNumber": "ACC-10146",
+      "Website": "https://www.summit-systems-group.example",
+      "Rating": "Cold",
+      "CreatedDate": "2026-03-14T00:00:00.000Z",
+      "LastModifiedDate": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000147AAA"
+      },
+      "Id": "001Kd0000000147AAA",
+      "Name": "Silverline Brewing Co",
+      "Phone": "555-010-1147",
+      "Industry": "Retail",
+      "BillingCountry": "Canada",
+      "AccountNumber": "ACC-10147",
+      "Website": "https://www.silverline-brewing-co.example",
+      "Rating": "Hot",
+      "CreatedDate": "2026-08-07T00:00:00.000Z",
+      "LastModifiedDate": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "url": "/services/data/v62.0/sobjects/Account/001Kd0000000148AAA"
+      },
+      "Id": "001Kd0000000148AAA",
+      "Name": "Juniper Capital Partners",
+      "Phone": "555-010-1148",
+      "Industry": "Energy",
+      "BillingCountry": "India",
+      "AccountNumber": "ACC-10148",
+      "Website": "https://www.juniper-capital-partners.example",
+      "Rating": "Warm",
+      "CreatedDate": "2026-01-31T00:00:00.000Z",
+      "LastModifiedDate": "2026-01-31T00:00:00.000Z"
+    }
+  ]
+}

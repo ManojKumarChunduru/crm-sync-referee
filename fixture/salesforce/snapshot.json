@@ -1,0 +1,8 @@
+{
+  "as_of": "2026-11-10T00:00:00.000Z",
+  "org_id": "00DKd0000000001EAA",
+  "api_version": "62.0",
+  "integration_user": "005Kd000000SYNCAAA",
+  "change_origin_client": "SyncBridge",
+  "note": "Records in REST query shape; change events in CometD message shape as a subscriber captured them, 30 days deep."
+}
