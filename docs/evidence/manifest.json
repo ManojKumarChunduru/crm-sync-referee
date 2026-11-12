@@ -1,0 +1,76 @@
+{
+  "generatedBy": "tools/record_demo.js",
+  "note": "A replay of captured stdout paced by measured wall time, clamped between MIN and MAX seconds per segment; the wall times are pacing data, not benchmarks.",
+  "pacing": {
+    "minSeconds": 2.2,
+    "maxSeconds": 7,
+    "multiplier": 4,
+    "typeSeconds": 1.2,
+    "pauseSeconds": 2.6
+  },
+  "gif": {
+    "fps": 6,
+    "width": 800,
+    "colours": 32,
+    "bytes": 1878063
+  },
+  "mp4": {
+    "bytes": 356507
+  },
+  "segments": [
+    {
+      "title": "The contract: who owns each field, and which writes are the integration's own",
+      "command": "node bin/csr contract --contract contract/sync-contract.json",
+      "exitCode": 0,
+      "wallSeconds": 0.037,
+      "replaySeconds": 2.2,
+      "lines": 21,
+      "truncated": false
+    },
+    {
+      "title": "Every difference, with the stale side named or the reason no side can be",
+      "command": "node bin/csr referee --salesforce fixture/salesforce --external fixture/external --contract contract/sync-contract.json",
+      "exitCode": 2,
+      "wallSeconds": 0.053,
+      "replaySeconds": 2.2,
+      "lines": 25,
+      "truncated": true
+    },
+    {
+      "title": "One field: the echo of a stale value a timestamp comparison gets backwards",
+      "command": "node bin/csr explain Contact.Email 003Kd0000000013AAA --salesforce fixture/salesforce --external fixture/external --contract contract/sync-contract.json",
+      "exitCode": 1,
+      "wallSeconds": 0.052,
+      "replaySeconds": 2.2,
+      "lines": 10,
+      "truncated": false
+    },
+    {
+      "title": "The same run with a 30-day archive of change events instead of the 72-hour bus",
+      "command": "node bin/csr referee --salesforce fixture/salesforce --external fixture/external --contract contract/sync-contract.json --window 720h",
+      "exitCode": 2,
+      "wallSeconds": 0.054,
+      "replaySeconds": 2.2,
+      "lines": 4,
+      "truncated": true
+    },
+    {
+      "title": "The external side pulled over REST with a client-credentials token, paginated, backing off on 429",
+      "command": "node bin/csr pull --from http://127.0.0.1:34217 --client-id sf-sync-bridge --client-secret fixture-secret-not-a-secret --contract contract/sync-contract.json --out /tmp/csr-demo-erp --limit 20",
+      "exitCode": 0,
+      "wallSeconds": 1.152,
+      "replaySeconds": 4.606796116,
+      "lines": 1,
+      "truncated": false
+    },
+    {
+      "title": "The receipts: every figure in the docs checked against the code",
+      "command": "node tools/check_numbers.js",
+      "exitCode": 0,
+      "wallSeconds": 0.112,
+      "replaySeconds": 2.2,
+      "lines": 1,
+      "truncated": false
+    }
+  ]
+}

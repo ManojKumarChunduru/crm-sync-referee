@@ -12,7 +12,7 @@ import { writeFileSync, mkdirSync, readdirSync, readFileSync, renameSync, rmSync
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { tmpdir } from "node:os";
-import { spawnSync, execFileSync } from "node:child_process";
+import { spawn, spawnSync, execFileSync } from "node:child_process";
 import { loadPlaywright } from "./browser.js";
 import { startServer, DEFAULT_CONFIG } from "../mock/server.js";
 
@@ -25,8 +25,18 @@ const FIX_TEXT = FIX.join(" ");
 const expected = JSON.parse(readFileSync(join(ROOT, "fixture", "EXPECTED_VERDICTS.json"), "utf8"));
 const echoRow = expected.rows.find((r) => r.cause === "echo_of_stale_value");
 
-// The pull segment talks to the mock external system, started in this process on a loopback port.
-const mock = await startServer({ port: 0, config: { ...DEFAULT_CONFIG, rate_limit_every: 9 } });
+// The pull segment talks to the mock external system. It has to be a separate process: the segments are
+// captured with spawnSync, which blocks this process's event loop, and an Express server started in here
+// would never answer (the first recording produced UND_ERR_HEADERS_TIMEOUT for exactly that reason).
+const probe = await startServer({ port: 0 });
+const mockPort = probe.port;
+await probe.close();
+const mockProcess = spawn(process.execPath, ["mock/server.js", "--port", String(mockPort)], { cwd: ROOT, stdio: ["ignore", "pipe", "inherit"] });
+await new Promise((resolve, reject) => {
+  mockProcess.stdout.on("data", (chunk) => { if (String(chunk).includes("listening")) resolve(); });
+  mockProcess.on("exit", (code) => reject(new Error(`mock exited with ${code} before listening`)));
+});
+const mock = { baseUrl: `http://127.0.0.1:${mockPort}` };
 const pullOut = join(tmpdir(), "csr-demo-erp");
 rmSync(pullOut, { recursive: true, force: true });
 
@@ -59,7 +69,7 @@ const captured = SEGMENTS.map((segment) => {
     replaySeconds, lines, truncated };
 });
 
-await mock.close();
+mockProcess.kill();
 rmSync(pullOut, { recursive: true, force: true });
 
 const TYPE_SECONDS = 1.2;
@@ -70,6 +80,7 @@ html, body { margin: 0; background: #0f1623; }
 .title { color: #9fc1ff; font-weight: 600; }
 .prompt { color: #4ad17d; }
 .cmd { color: #ffffff; }
+.cmdline { white-space: pre-wrap; overflow-wrap: anywhere; }
 .out { color: #d7dde7; }
 .exit { color: #f4b942; }
 #wrap { position: relative; }
@@ -91,7 +102,7 @@ async function play() {
     wrap.innerHTML = "";
     add("title", "# " + seg.title);
     add("", "");
-    const line = add("", "");
+    const line = add("cmdline", "");
     const prompt = document.createElement("span"); prompt.className = "prompt"; prompt.textContent = "$ "; line.appendChild(prompt);
     const cmd = document.createElement("span"); cmd.className = "cmd"; line.appendChild(cmd);
     const cursor = document.createElement("span"); cursor.id = "cursor"; line.appendChild(cursor);
@@ -137,7 +148,7 @@ execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", webmPath, "-vf", "fps=
 execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-i", webmPath, "-i", palette, "-lavfi",
   "fps=6,scale=800:-1:flags=lanczos[x];[x][1:v]paletteuse=dither=bayer:bayer_scale=5", gif]);
 rmSync(palette);
-rmSync(webmPath);
+if (!process.env.KEEP_WEBM) rmSync(webmPath);
 
 const manifest = {
   generatedBy: "tools/record_demo.js",
