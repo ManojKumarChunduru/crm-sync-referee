@@ -65,8 +65,8 @@
   <text class="q" x="586" y="182">?</text>
   <!-- the verdict stamp -->
   <g class="verdict">
-    <rect x="522" y="128" width="156" height="44" rx="6" fill="none" stroke="#b7e4bc" stroke-width="3"/>
-    <text x="600" y="157" text-anchor="middle" font-size="18" font-weight="700" fill="#b7e4bc">Salesforce stale</text>
+    <rect x="534" y="131" width="132" height="38" rx="6" fill="none" stroke="#b7e4bc" stroke-width="3"/>
+    <text x="600" y="156" text-anchor="middle" font-size="15" font-weight="700" fill="#b7e4bc">Salesforce stale</text>
   </g>
 
   <!-- the window -->
@@ -80,5 +80,5 @@
   <text class="figure ext fig f2" x="960" y="170">30 blame the ERP</text>
   <text class="figure sf fig f3" x="960" y="200">34 blame Salesforce</text>
   <text class="figure warn fig f4" x="960" y="230">21 no referee can attribute</text>
-  <text class="caption" x="960" y="268">on the committed fixture, re-measured by CI</text>
+  <text class="caption" x="960" y="268">on the fixture, re-measured by CI</text>
 </svg>

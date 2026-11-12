@@ -178,7 +178,8 @@ h2 { font-size: 16px; margin: 0 0 10px; }
 .summary div { background: #fff; border: 1px solid #dde2ea; border-radius: 6px; padding: 10px 12px; }
 .summary .n { font-size: 24px; font-weight: 700; display: block; }
 .summary .l { font-size: 12px; color: #5b6676; }
-table { width: 100%; border-collapse: collapse; background: #fff; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; background: #fff; font-size: 13px; table-layout: fixed; }
+td { overflow-wrap: anywhere; }
 th, td { border: 1px solid #dde2ea; padding: 7px 9px; vertical-align: top; text-align: left; }
 th { background: #eef1f6; font-weight: 600; }
 ul.ev { margin: 0; padding-left: 16px; font-size: 12px; }
@@ -189,7 +190,7 @@ li.external.originating { color: #2f3680; }
 .tag.external_stale { background: #e7e9f7; color: #2f3680; }
 .tag.salesforce_stale { background: #e4f1e5; color: #1f5a24; }
 .tag.unattributable { background: #fff1cc; color: #6b4e00; }
-td.reason { color: #5b6676; max-width: 360px; }
+td.reason { color: #5b6676; }
 code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 12.5px; }
 ul.plain { margin: 0; padding-left: 18px; }
 </style></head><body>
@@ -204,7 +205,8 @@ ul.plain { margin: 0; padding-left: 18px; }
 <div><span class="n">${c.orphans}</span><span class="l">orphan records</span></div>
 </div></section>
 <section id="verdicts"><h2>Real differences, with the write that decides each</h2>
-<table><thead><tr><th>Record</th><th>Field</th><th>Owner</th><th>Salesforce</th><th>${escapeHtml(result.contract.external)}</th><th>Verdict</th><th>Cause</th><th>Writes in the window</th><th>Reason</th></tr></thead>
+<table><colgroup><col style="width:13%"><col style="width:12%"><col style="width:7%"><col style="width:9%"><col style="width:9%"><col style="width:10%"><col style="width:7%"><col style="width:15%"><col style="width:18%"></colgroup>
+<thead><tr><th>Record</th><th>Field</th><th>Owner</th><th>Salesforce</th><th>${escapeHtml(result.contract.external)}</th><th>Verdict</th><th>Cause</th><th>Writes in the window</th><th>Reason</th></tr></thead>
 <tbody>
 ${rows}
 </tbody></table></section>

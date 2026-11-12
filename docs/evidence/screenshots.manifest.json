@@ -1,0 +1,42 @@
+{
+  "report": "docs/evidence/report.html",
+  "generatedBy": "tools/capture_screenshots.js",
+  "badge": {
+    "text": "21 diffs no referee can attribute",
+    "colour": "rgb(28, 35, 48)",
+    "background": "rgb(230, 167, 0)",
+    "visible": true
+  },
+  "shots": [
+    {
+      "file": "docs/evidence/report-verdicts.png",
+      "framedBy": [
+        "header",
+        "normalised"
+      ],
+      "clip": {
+        "x": 0,
+        "y": 0,
+        "width": 1360,
+        "height": 1500
+      },
+      "capped": true,
+      "maxHeight": 1500
+    },
+    {
+      "file": "docs/evidence/report-normalised-and-orphans.png",
+      "framedBy": [
+        "normalised",
+        "end of document"
+      ],
+      "clip": {
+        "x": 0,
+        "y": 12149.546875,
+        "width": 1360,
+        "height": 600.453125
+      },
+      "capped": false,
+      "maxHeight": null
+    }
+  ]
+}

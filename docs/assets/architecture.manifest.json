@@ -1,0 +1,7 @@
+{
+  "source": "README.md mermaid-source fence",
+  "method": "playwright + /opt/npm-tools/node_modules/mermaid/dist/mermaid.min.js",
+  "width": 1040,
+  "height": 912,
+  "foreignObject": false
+}

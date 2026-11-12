@@ -26,8 +26,11 @@ if (![0, 1, 2].includes(run.status)) {
   process.exit(1);
 }
 
+// Framed by heading id. The verdict table runs to 85 rows with their evidence, so the first shot is
+// capped in height (the cap is recorded in the manifest); a cap is not a pixel offset, and the shot
+// still fails if a heading disappears.
 const SHOTS = [
-  { name: "report-verdicts.png", from: "header", to: "normalised" },
+  { name: "report-verdicts.png", from: "header", to: "normalised", maxHeight: 1500 },
   { name: "report-normalised-and-orphans.png", from: "normalised", to: null },
 ];
 
@@ -69,8 +72,13 @@ for (const shot of SHOTS) {
     process.exit(1);
   }
   const path = join(OUT, shot.name);
+  const capped = shot.maxHeight !== undefined && box.height > shot.maxHeight;
+  if (capped) box.height = shot.maxHeight;
   await page.screenshot({ path, fullPage: true, clip: box });
-  manifest.shots.push({ file: `docs/evidence/${shot.name}`, framedBy: [shot.from, shot.to ?? "end of document"], clip: box });
+  manifest.shots.push({
+    file: `docs/evidence/${shot.name}`, framedBy: [shot.from, shot.to ?? "end of document"], clip: box,
+    capped, maxHeight: shot.maxHeight ?? null,
+  });
   console.log(`capture_screenshots: ${shot.name} ${Math.round(box.width)}x${Math.round(box.height)}`);
 }
 await browser.close();
