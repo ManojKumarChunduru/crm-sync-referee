@@ -70,7 +70,7 @@ Every verdict rests on three inputs: the owner the contract declares for the fie
 | shared | no originating write on either side | window closed | |
 | undeclared | anything | contract silent | |
 
-On the fixture that gives 64 diffs with a named side (75.3% attributed) and 21 diffs no referee can attribute. The ERP-side share is 35.3% ERP-side share of real diffs and the Salesforce-side share is 40% Salesforce-side share. [ADR-001](docs/adr/ADR-001-a-contract-over-two-logs-is-the-referee.md).
+On the fixture that gives 64 diffs with a named side (75.3% attributed) and 21 diffs no referee can attribute; the split is a 35.3% ERP-side share against a 40% Salesforce-side share of the 85 real diffs. [ADR-001](docs/adr/ADR-001-a-contract-over-two-logs-is-the-referee.md).
 
 ## Claim 2: the integration's own writes are evidence of nothing, and treating them as writes gets 8 rows backwards
 
@@ -194,7 +194,7 @@ Two committed snapshots with a planted history prove the rule arithmetic, not di
 
 - that change events are kept for 72 hours and nothing older can be replayed (documented, not observed; a subscriber that archives sees more, which is what `--window` models);
 - that an empty `changeOrigin` is an originating write (the reference says the field is populated only for API clients and Lightning Experience; the fixture plants no Classic UI writes and the referee takes the optimistic reading);
-- that the ERP's audit log is complete and records the actor (a system that does not log the actor cannot be refereed, and the referee applies the same window to both logs, the conservative reading);
+- that the ERP's audit log is complete and records the actor (a system that does not log the actor cannot be refereed; the same window is applied to both logs because a longer ERP retention cannot order a shared field whose Salesforce history expired);
 - that the clock skew tolerance is a policy, not a measurement (the fixture cannot measure the real skew between two systems);
 - that gap and overflow events are refusals (the fixture plants one gap event and no overflow);
 - that the `ExternalCredential` variant value for client credentials with a client secret is what the metadata says (not reachable from a reference page; declared).
@@ -263,4 +263,4 @@ Exit 1 means the report names what to overwrite; exit 2 means read the unattribu
 
 Out of scope: writing the fix. The referee names the stale side and the value that should overwrite it, and never writes to either system. The trigger for adding it is a measured mis-attribution rate: a team that has run the referee over several sync cycles, sampled its attributed verdicts against what a person decided, and found the rate acceptable. Until that number exists, a tool that writes on its own verdicts is the sync bug it was built to referee. Also out of scope: more than one external system per run (the contract names one; run once per system), and an `--org` mode (ADR-005 says what it would settle).
 
-A v2 would need: an archiving subscriber that keeps change events past the bus's retention, since the window is the largest unattributable reason; a measured clock skew between the two systems in place of the 5-second policy; the gap and overflow event kinds modelled as a refusal per record rather than one verdict; a second fixture written by someone other than the author; and a per-record order of writes across fields, so a rogue write on one field can be tied to the save that made it. The first metric to watch is the unattributable share after archiving is turned on: if it does not fall toward the within-skew count, the archive is not being read.
+A v2 would need: an archiving subscriber that keeps change events past the bus's retention, since the window is the largest unattributable reason and nothing on the ERP side can substitute for it; a measured clock skew between the two systems in place of the 5-second policy; the gap and overflow event kinds modelled as a refusal per record rather than one verdict; a second fixture written by someone other than the author; and a per-record order of writes across fields, so a rogue write on one field can be tied to the save that made it. The first metric to watch is the unattributable share after archiving is turned on: if it does not fall toward the within-skew count, the archive is not being read.
