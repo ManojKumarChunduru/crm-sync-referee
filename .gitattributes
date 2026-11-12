@@ -1,0 +1,15 @@
+# Salesforce metadata is source, not data: count it on the language bar.
+*.cls linguist-detectable=true linguist-language=Apex
+*.trigger linguist-detectable=true linguist-language=Apex
+*.cls-meta.xml linguist-detectable=true linguist-language=XML
+*.trigger-meta.xml linguist-detectable=true linguist-language=XML
+*.object-meta.xml linguist-detectable=true linguist-language=XML
+*.field-meta.xml linguist-detectable=true linguist-language=XML
+*.platformEventChannelMember-meta.xml linguist-detectable=true linguist-language=XML
+*.externalCredential-meta.xml linguist-detectable=true linguist-language=XML
+*.namedCredential-meta.xml linguist-detectable=true linguist-language=XML
+docs/assets/*.svg linguist-generated=true
+docs/metrics.json linguist-generated=true
+docs/experiments/*.json linguist-generated=true
+fixture/salesforce/**/*.json linguist-generated=true
+fixture/external/*.json linguist-generated=true

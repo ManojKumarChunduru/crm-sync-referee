@@ -1,0 +1,39 @@
+{
+  "name": "crm-sync-referee",
+  "version": "1.0.0",
+  "description": "Reads a Salesforce snapshot with its change events and an external system's snapshot with its audit log, and for every field that differs names the side that is stale, with the write that proves it, or says why no referee can.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Manoj Kumar Chunduru <hello.manojchunduru@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManojKumarChunduru/crm-sync-referee.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "csr": "bin/csr"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test --test-reporter=spec test/*.test.js",
+    "test:junit": "node --test --test-reporter=junit --test-reporter-destination=docs/test-results.xml test/*.test.js",
+    "coverage": "c8 --reporter=json-summary --reporter=text --reports-dir=coverage node --test test/*.test.js",
+    "experiments": "node experiments/exp01_diff_census.js && node experiments/exp02_attribution.js && node experiments/exp03_window_and_skew.js && node experiments/exp04_timestamp_baseline.js",
+    "receipts": "node tools/collect_metrics.js && node tools/check_numbers.js",
+    "mock": "node mock/server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "c8": "^12.0.0",
+    "eslint": "^10.0.0",
+    "express": "^5.1.0",
+    "globals": "^16.0.0"
+  }
+}

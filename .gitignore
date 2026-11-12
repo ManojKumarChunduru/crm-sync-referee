@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+docs/test-results.xml
+docs/evidence/frames/
+docs/evidence/*.jsonl
+*.log
+.DS_Store
