@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>One field change on an Account or Contact, published by the sync publisher triggers for the bridge to apply into the ERP. High volume, published after commit so a rolled-back save never reaches the ERP.</description>
+    <eventType>HighVolume</eventType>
+    <label>Sync Change</label>
+    <pluralLabel>Sync Changes</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>
